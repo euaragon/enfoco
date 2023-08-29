@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\enfoco2.props" />
+</Project>

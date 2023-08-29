@@ -1,25 +1,39 @@
-﻿html {
+﻿@font-face {
+  font-family: "Editorial";
+  src: url("../fonts/EditorialNew-Bold.ttf"),
+    url("../fonts/EditorialNew-Heavy.ttf"),
+    url("../fonts/EditorialNew-Light.ttf"),
+    url("../fonts/EditorialNew-Medium.ttf"),
+    url("../fonts/EditorialNew-Regular.ttf"),
+    url("../fonts/EditorialNew-Thin.ttf");
+}
+
+html {
   font-size: 14px;
 }
 
 body {
-    background-color: #f3f4ed;
-    color: #424642 !important;
-    font-size:0.9em !important;
+  background-color: #f3f4ed;
+  color: #424642 !important;
+  font-size: 0.9em !important;
 }
 
 a {
-    color: #424642 !important;
+  color: #424642 !important;
 }
 
-    a:hover {
-        color: #c06014 !important;
-    }
-
-.text-dark{
-    color: #424642 !important;
+a:hover {
+  color: #c06014 !important;
 }
 
+h1,
+h2 {
+  font-family: "Editorial";
+}
+
+.text-dark {
+  color: #424642 !important;
+}
 
 @media (min-width: 768px) {
   html {
@@ -27,7 +41,11 @@ a {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
@@ -40,17 +58,39 @@ body {
   margin-bottom: 60px;
 }
 .newsletter {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
 }
 
-.newsletter h6{
-    margin: 0;
+.newsletter h6 {
+  margin: 0;
+}
+
+.text-naranja {
+  color: #c06014;
 }
 
 .naranja {
-    background-color: #c06014;
+  background-color: #c06014;
+}
+
+.title-notice {
+  background-color: #fff;
+  border: 1px solid #c06014;
+  box-shadow: 7px 9px 0px 0px #c06014;
+  -webkit-box-shadow: 7px 9px 0px 0px #c06014;
+  -moz-box-shadow: 7px 9px 0px 0px #c06014;
+  position: relative;
+  top: -100px;
+}
+
+.notice {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }

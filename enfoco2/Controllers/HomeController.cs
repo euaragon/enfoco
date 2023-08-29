@@ -18,7 +18,15 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Noticias()
+    {
+        return View();
+    }
+    public IActionResult Investigacion()
+    {
+        return View();
+    }
+    public IActionResult Agenda()
     {
         return View();
     }
