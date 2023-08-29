@@ -31,6 +31,18 @@ h2 {
   font-family: "Editorial";
 }
 
+h2{
+  font-size: 16pt;
+}
+
+h5{
+  font-size: 12pt;
+}
+
+h6{
+  font-size: 10pt;
+}
+
 .text-dark {
   color: #424642 !important;
 }
@@ -77,14 +89,12 @@ body {
   background-color: #c06014;
 }
 
-.title-notice {
-  background-color: #fff;
-  border: 1px solid #c06014;
-  box-shadow: 7px 9px 0px 0px #c06014;
-  -webkit-box-shadow: 7px 9px 0px 0px #c06014;
-  -moz-box-shadow: 7px 9px 0px 0px #c06014;
-  position: relative;
-  top: -100px;
+.notice-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ gap: 2em;
 }
 
 .notice {
@@ -93,4 +103,18 @@ body {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
+  width: 40%;
 }
+
+.title-notice {
+  background-color: #fff;
+  border: 1px solid #c06014;
+  box-shadow: 7px 9px 0px 0px #c06014;
+  -webkit-box-shadow: 7px 9px 0px 0px #c06014;
+  -moz-box-shadow: 7px 9px 0px 0px #c06014;
+  position: relative;
+  top: -100px;
+  padding: 20px;
+  text-align: left;
+}
+

@@ -13,6 +13,70 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Heavy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Heavy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Ultrabold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Ultrabold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Ultralight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Ultralight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-BoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-BoldItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Italic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Italic.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Light.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-LightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-LightItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-MediumItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-MediumItalic.otf"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Regular.otf"
+    },
+    {
       "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\etica.png",
       "PackagePath": "staticwebassets\\img\\etica.png"
     },

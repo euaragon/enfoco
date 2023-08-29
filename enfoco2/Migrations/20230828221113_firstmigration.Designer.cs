@@ -12,7 +12,7 @@ namespace enfoco2.Migrations
 {
     [DbContext(typeof(EnfocoDb))]
     [Migration("20230828221113_firstmigration")]
-    partial class firstmigration
+    partial class Firstmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
