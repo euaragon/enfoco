@@ -36,11 +36,11 @@ h2{
 }
 
 h5{
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 h6{
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
 .text-dark {
@@ -103,7 +103,16 @@ body {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 40%;
+  max-width: 450px;
+}
+
+.notice-big {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
 }
 
 .title-notice {
@@ -116,5 +125,10 @@ body {
   top: -100px;
   padding: 20px;
   text-align: left;
+}
+
+.title-notice h5{
+  font-style: italic;
+  font-weight: bolder;
 }
 
