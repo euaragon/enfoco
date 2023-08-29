@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - enfoco2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/enfoco2.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="w-50" src="~/img/logo.png" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex">
+                    <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">EDITORIAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">INVESTIGACION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">AGENDA</a>
+                        </li>
+
+
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">🔍</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer">
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm justify-content-between">
+                <ul class="navbar-nav flex flex-wrap organismos">
+                    <li class="nav-item"><a href="https://www.tribunaldecuentas.mendoza.gov.ar/"><img src="~/img/tribunal.png" /></a></li>
+
+                    <li class="nav-item"><a href="http://fiscalia.mendoza.gov.ar/"><img src="~/img/fiscalia.png" /></a></li>
+
+                    <li class="nav-item"><a href="https://eticapublica.mendoza.gov.ar/"><img src="~/img/etica.png" /></a></li>
+                </ul>
+
+                <form class="newsletter">
+                    <h6 class="text-light text-end">Suscribite a nuestro <br /> Newsletter</h6>
+                    <div class="input-group flex-wrap w-50">
+                        <span class="input-group-text">&#64;</span>
+                        <input type="email" class="form-control" placeholder="email">
+                    </div>
+                    <button class="btn naranja text-light" type="submit">Enviar</button>
+                </form>
+            </nav>
+           
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
