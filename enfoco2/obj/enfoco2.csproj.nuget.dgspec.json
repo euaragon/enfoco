@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\enfoco2.csproj": {}
+    "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\enfoco2.csproj": {
+    "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\enfoco2.csproj",
+        "projectUniqueName": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj",
         "projectName": "enfoco2",
-        "projectPath": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\enfoco2.csproj",
-        "packagesPath": "C:\\Users\\earagon.TRIBUNAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\obj\\",
+        "projectPath": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj",
+        "packagesPath": "/Users/eugenioaragon/.nuget/packages/",
+        "outputPath": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\earagon.TRIBUNAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/eugenioaragon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,25 +44,23 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.10, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.10, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[7.0.9, )"
-            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -84,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

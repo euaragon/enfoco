@@ -44,15 +44,6 @@ button.accept-policy {
     margin-right: 30px;
 }
 
-.footer {
-    background-color: #424642 !important;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    flex-wrap:wrap;
-    padding:10px 0;
-}
 
 .organismos{
     gap: 20px !important;

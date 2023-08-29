@@ -47,6 +47,14 @@ h6{
   color: #424642 !important;
 }
 
+article{
+    cursor:pointer;
+}
+
+article:hover{
+    opacity: 0.9;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -117,14 +125,18 @@ body {
 
 .title-notice {
   background-color: #fff;
-  border: 1px solid #c06014;
+  border: 2px solid #c06014;
   box-shadow: 7px 9px 0px 0px #c06014;
   -webkit-box-shadow: 7px 9px 0px 0px #c06014;
   -moz-box-shadow: 7px 9px 0px 0px #c06014;
   position: relative;
-  top: -100px;
+  top: -60px;
   padding: 20px;
   text-align: left;
+}
+
+.title-notice:hover{
+    top: -63px;
 }
 
 .title-notice h5{
@@ -132,3 +144,18 @@ body {
   font-weight: bolder;
 }
 
+.img-notice-container{
+    width:450px;
+    height:230px;
+    overflow:hidden;
+}
+
+.footer {
+    background-color: #424642 !important;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}

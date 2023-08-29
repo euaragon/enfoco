@@ -29,6 +29,10 @@ namespace enfoco2.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Img")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Issue")
                         .IsRequired()
                         .HasColumnType("text");
