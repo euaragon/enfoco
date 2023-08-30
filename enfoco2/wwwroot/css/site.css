@@ -20,6 +20,7 @@ body {
 
 a {
   color: #424642 !important;
+  text-decoration: none;
 }
 
 a:hover {

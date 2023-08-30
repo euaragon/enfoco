@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using enfoco2.Models;
+using enfoco2.Services;
 
 namespace enfoco2.Controllers;
 
@@ -18,10 +19,6 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Noticias()
-    {
-        return View();
-    }
     public IActionResult Investigacion()
     {
         return View();
@@ -30,6 +27,10 @@ public class HomeController : Controller
     {
         return View();
     }
+
+
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

@@ -26,4 +26,7 @@
     <Folder Include="Data\" />
     <Folder Include="Services\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Detail.cshtml" />
+  </ItemGroup>
 </Project>
