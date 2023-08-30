@@ -9,10 +9,14 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    private readonly NoticeService _noticeService;
+
+    public HomeController(ILogger<HomeController> logger, NoticeService noticeService)
     {
         _logger = logger;
+        _noticeService = noticeService;
     }
+
 
     public IActionResult Index()
     {
@@ -28,6 +32,17 @@ public class HomeController : Controller
         return View();
     }
 
+    public async Task<IActionResult> Detail(int id)
+    {
+        var notice = await _noticeService.GetNoticeByIdAsync(id);
+
+        if (notice == null)
+        {
+            return NotFound();
+        }
+
+        return View(notice);
+    }
 
 
 

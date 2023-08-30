@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj": {}
+    "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\enfoco2.csproj": {}
   },
   "projects": {
-    "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj": {
+    "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\enfoco2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj",
+        "projectUniqueName": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\enfoco2.csproj",
         "projectName": "enfoco2",
-        "projectPath": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/enfoco2.csproj",
-        "packagesPath": "/Users/eugenioaragon/.nuget/packages/",
-        "outputPath": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/",
+        "projectPath": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\enfoco2.csproj",
+        "packagesPath": "C:\\Users\\earagon.TRIBUNAL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/eugenioaragon/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\earagon.TRIBUNAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

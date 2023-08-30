@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eZrjR/3ygxAVKpHoWDgN13RnTusFBbsOv4ujK2QJN2g=",
+  "Hash": "Y/ks0VtWLSIOxLxeVlADshGm3ysJSijs2NsBcpZRCyM=",
   "Source": "enfoco2",
   "BasePath": "_content/enfoco2",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "enfoco2/wwwroot",
+      "Name": "enfoco2\\wwwroot",
       "Source": "enfoco2",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/bundle/enfoco2.styles.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\enfoco2.styles.css",
       "SourceId": "enfoco2",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "enfoco2.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/bundle/enfoco2.styles.css"
+      "OriginalItemSpec": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\bundle\\enfoco2.styles.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/projectbundle/enfoco2.bundle.scp.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\enfoco2.bundle.scp.css",
       "SourceId": "enfoco2",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "enfoco2.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/projectbundle/enfoco2.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\enfoco2.bundle.scp.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\css\\site.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\favicon.ico",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Bold.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Bold.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Bold.ttf",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Bold.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Bold.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Heavy.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Heavy.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Heavy.ttf",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Heavy.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Heavy.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Light.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Light.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Light.ttf",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Light.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Light.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Medium.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Medium.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Medium.ttf",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Medium.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Medium.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Regular.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Regular.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Regular.ttf",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Regular.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Regular.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Thin.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Thin.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Thin.ttf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Thin.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Thin.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Ultrabold.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Ultrabold.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Ultrabold.ttf",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Ultrabold.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Ultrabold.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Ultralight.ttf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\EditorialNew-Ultralight.ttf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/EditorialNew-Ultralight.ttf",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/EditorialNew-Ultralight.ttf"
+      "OriginalItemSpec": "wwwroot\\fonts\\EditorialNew-Ultralight.ttf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Bold.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Bold.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-Bold.otf",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-Bold.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-Bold.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-BoldItalic.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-BoldItalic.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-BoldItalic.otf",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-BoldItalic.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-BoldItalic.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Italic.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Italic.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-Italic.otf",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-Italic.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-Italic.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Light.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Light.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-Light.otf",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-Light.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-Light.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-LightItalic.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-LightItalic.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-LightItalic.otf",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-LightItalic.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-LightItalic.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Medium.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Medium.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-Medium.otf",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-Medium.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-Medium.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-MediumItalic.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-MediumItalic.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-MediumItalic.otf",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-MediumItalic.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-MediumItalic.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Regular.otf",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Regular.otf",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "fonts/NeueMontreal-Regular.otf",
       "AssetKind": "All",
@@ -354,13 +354,81 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-Regular.otf"
+      "OriginalItemSpec": "wwwroot\\fonts\\NeueMontreal-Regular.otf"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/etica.png",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\._etica.png",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/._etica.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\._etica.png"
+    },
+    {
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\._fiscalia.png",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/._fiscalia.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\._fiscalia.png"
+    },
+    {
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\._logo.png",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/._logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\._logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\._tribunal.png",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/._tribunal.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\._tribunal.png"
+    },
+    {
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\etica.png",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "img/etica.png",
       "AssetKind": "All",
@@ -371,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/etica.png"
+      "OriginalItemSpec": "wwwroot\\img\\etica.png"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/fiscalia.png",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\fiscalia.png",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "img/fiscalia.png",
       "AssetKind": "All",
@@ -388,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/fiscalia.png"
+      "OriginalItemSpec": "wwwroot\\img\\fiscalia.png"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/logo.png",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\logo.png",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -405,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/logo.png"
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/tribunal.png",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\tribunal.png",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "img/tribunal.png",
       "AssetKind": "All",
@@ -422,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/tribunal.png"
+      "OriginalItemSpec": "wwwroot\\img\\tribunal.png"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/js/site.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\js\\site.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -439,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -456,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -473,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -490,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -507,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -524,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -541,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -558,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -575,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -592,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -609,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -626,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -643,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -660,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -677,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -694,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -711,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -728,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -745,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -762,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -779,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -796,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -813,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -830,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -847,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -864,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -881,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -898,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -915,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -932,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -949,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -966,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -983,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1000,13 +1068,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1017,13 +1085,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1034,13 +1102,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1051,13 +1119,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1068,13 +1136,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1085,13 +1153,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1102,13 +1170,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1119,13 +1187,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1136,13 +1204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1153,13 +1221,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1170,13 +1238,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1187,13 +1255,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1204,13 +1272,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1221,13 +1289,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1238,13 +1306,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1255,13 +1323,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1272,13 +1340,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1289,13 +1357,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1306,13 +1374,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1323,13 +1391,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1340,13 +1408,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1357,13 +1425,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1374,13 +1442,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1391,13 +1459,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "enfoco2",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
       "BasePath": "_content/enfoco2",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1408,7 +1476,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     }
   ]
 }
