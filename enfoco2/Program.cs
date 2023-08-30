@@ -47,7 +47,7 @@ app.MapPost("Home/noticias/", async (Notice n, EnfocoDb db) =>
     return Results.Created($"/noticia/{n.Id}", n);
 });
 
-app.MapGet("/noticias/{id:int}", async (int id, EnfocoDb db) =>
+app.MapGet("/detalle/{id:int}", async (int id, EnfocoDb db) =>
 {
     return await db.Notices.FindAsync(id)
     is Notice n ? Results.Ok(n) : Results.NotFound();

@@ -7,7 +7,7 @@
 <div class="text-center notice-container p-5">
     @foreach (var notice in NoticeService.GetNotice())
     {
-        <a href="/noticias/@notice.Id" class="notice-link"> <!-- Ajusta la ruta aquí -->
+        <a href="/detalle/@notice.Id" class="notice-link"> 
             <article class="notice">
                 <div class="img-notice-container">
                     <img class="img-fluid w-100" src="@notice.Img" alt="noticia">
