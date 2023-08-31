@@ -44,6 +44,11 @@ h6{
   font-size: 9pt;
 }
 
+header {
+    box-shadow: -1px 3px 28px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 28px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 28px -10px rgba(0,0,0,0.75);
+}
 .text-dark {
   color: #424642 !important;
 }

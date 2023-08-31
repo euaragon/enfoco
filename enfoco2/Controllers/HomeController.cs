@@ -41,8 +41,9 @@ public class HomeController : Controller
             return NotFound();
         }
 
-        return View(notice);
+        return View("Detail", notice);
     }
+
 
 
 

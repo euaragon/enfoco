@@ -1,23 +1,21 @@
 ﻿@model enfoco2.Models.Notice
 
 @{
-    ViewData["Title"] = Model.Title;
+    ViewData["Title"] = "Detalle de Noticia";
 }
 
-@inject enfoco2.Services.NoticeService NoticeService
-@{
-    var notice = await NoticeService.GetNoticeByIdAsync(Model.Id);
-}
-
-<div class="notice-detail-container p-5">
-    <div class="img-notice-container">
-        <img class="img-fluid w-100" src="@notice.Img" alt="noticia">
-    </div>
-    <div class="title-notice">
-        <h5 class="text-naranja">@notice.Issue</h5>
-        <h2 class="editorial">@notice.Title</h2>
-    </div>
-    <div class="content-notice mt-4">
-        <p>@Html.Raw(notice.Text)</p>
-    </div>
+<div class="notice-detail-container">
+    @if (Model != null)
+    {
+            <h2>@Model.Title</h2>
+            <div class="img-notice-container">
+                <img class="img-fluid img-thumbnail" src="@Model.Img" alt="noticia">
+            </div>
+            <p>@Model.Text</p>
+            <!-- Otros detalles de la noticia, como autor, fecha, etc. -->
+    }
+    else
+    {
+            <p>No se encontró la noticia.</p>
+    }
 </div>

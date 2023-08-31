@@ -39,7 +39,7 @@ app.UseHttpsRedirection();
 
 
 //vamos a crear la api web
-app.MapPost("Home/noticias/", async (Notice n, EnfocoDb db) =>
+app.MapPost("/noticias/", async (Notice n, EnfocoDb db) =>
 {
     db.Notices.Add(n);
     await db.SaveChangesAsync();
@@ -47,16 +47,17 @@ app.MapPost("Home/noticias/", async (Notice n, EnfocoDb db) =>
     return Results.Created($"/noticia/{n.Id}", n);
 });
 
-app.MapGet("/detalle/{id:int}", async (int id, EnfocoDb db) =>
+app.MapGet("/{id:int}", async (int id, EnfocoDb db) =>
 {
     return await db.Notices.FindAsync(id)
     is Notice n ? Results.Ok(n) : Results.NotFound();
 });
 
-app.MapGet("Home/noticias/", async (EnfocoDb db) => await db.Notices.ToListAsync());
+app.MapGet("/noticias/", async (EnfocoDb db) => await db.Notices.ToListAsync());
 
 
-app.MapPut("Home/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
+
+app.MapPut("/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
     if (n.Id != id) return Results.BadRequest();
 
     var notice = await db.Notices.FindAsync(id);
@@ -74,7 +75,7 @@ app.MapPut("Home/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
     return Results.Ok(notice);
 });
 
-app.MapDelete("Home/noticias/{id:int}", async (int id, EnfocoDb db) => {
+app.MapDelete("/noticias/{id:int}", async (int id, EnfocoDb db) => {
 
 
     var notice = await db.Notices.FindAsync(id);
@@ -101,6 +102,11 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "Detail",
+    pattern: "/{id:int}",
+    defaults: new { controller = "Home", action = "Detail" });
 
 app.Run();
 
