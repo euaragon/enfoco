@@ -27,9 +27,10 @@ namespace enfoco2.Services
             return new List<Notice>();
         }
 
-        public async Task<Notice> GetNoticeByIdAsync(int id)
+        public async Task<Notice?> GetNoticeByIdAsync(int id)
         {
-            return await _context.Notices.FindAsync(id).AsTask();
+            var notice = await _context.Notices.FindAsync(id);
+            return notice;
         }
 
 

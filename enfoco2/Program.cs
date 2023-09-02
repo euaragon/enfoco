@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 
+
 builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionString));
 
 // Registrar el servicio NoticeService
