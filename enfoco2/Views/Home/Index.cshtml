@@ -5,6 +5,19 @@
 @inject enfoco2.Services.NoticeService NoticeService
 
 <div class="text-center notice-container p-5">
+
+   
+    <article class="notice-big">
+        <div class="img-notice-big-container">
+            <img class="img-fluid img-thumbnail w-100" src="https://storage.googleapis.com/el-auditor-assets/64f0b18dbc64caba44555630/720.webp" alt="noticia">
+        </div>
+        <div class="title-notice w-75">
+            <h5 class="text-naranja">DESARROLLO FERROVIARIO</h5>
+            <h2 class="editorial">Tren Roca: ¿Cómo fue el proyecto de electrificación del ramal La Plata?</h2>
+        </div>
+    </article>
+
+
     @foreach (var notice in NoticeService.GetNotice())
     {
         <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
@@ -18,7 +31,5 @@
                 </div>
             </article>
         </a>
-
-       
     }
 </div>

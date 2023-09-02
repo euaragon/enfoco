@@ -121,11 +121,15 @@ body {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 90%;
+}
+
+.img-notice-big-container {
+    width: 80%;
+
 }
 
 .title-notice {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 2px solid #c06014;
   box-shadow: 7px 9px 0px 0px #c06014;
   -webkit-box-shadow: 7px 9px 0px 0px #c06014;
@@ -160,7 +164,7 @@ body {
 }
 
 .notice-detail-subtitle {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight:300;
     margin:1em 0;
     line-height:1.5em;
