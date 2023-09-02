@@ -156,7 +156,7 @@ body {
 }
 
 .notice-detail-title{
-    font-size:3em;
+    font-size:2.7em;
 }
 
 .notice-detail-subtitle {
@@ -174,6 +174,10 @@ body {
 .notice-detail-text {
     font-size: 1.1em;
     margin-bottom:5em;
+}
+
+.volver{
+    padding:0;
 }
 
 .footer {

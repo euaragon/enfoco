@@ -44,7 +44,7 @@ app.MapPost("/noticias/", async (Notice n, EnfocoDb db) =>
     db.Notices.Add(n);
     await db.SaveChangesAsync();
 
-    return Results.Created($"/noticia/{n.Id}", n);
+    return Results.Created($"/noticias/{n.Id}", n);
 });
 
 app.MapGet("noticias/Detail/{id:int}", async (int id, EnfocoDb db) =>

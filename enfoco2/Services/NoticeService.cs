@@ -1,4 +1,5 @@
 ﻿
+using System.Diagnostics;
 using enfoco2.Data;
 using enfoco2.Models;
 
@@ -17,7 +18,9 @@ namespace enfoco2.Services
         {
             if (_context.Notices != null)
             {
-                return _context.Notices.ToList();
+                var notices = _context.Notices.ToList();
+                Debug.WriteLine($"Cuantas noticias hay: {notices.Count}");
+                return notices;
             }
 
 
