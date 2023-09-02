@@ -7,15 +7,18 @@
 <div class="text-center notice-container p-5">
     @foreach (var notice in NoticeService.GetNotice())
     {
-        <article class="notice">
-           <div class="img-notice-container">
-               <img class="img-fluid w-100" src="@notice.Img" alt="noticia">
-           </div>
-            <div class="title-notice w-75">
-                <h5 class="text-naranja">@notice.Issue</h5>
-                <h2 class="editorial">@notice.Title</h2>
-            </div>
-        </article>
+        <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
+            <article class="notice">
+                <div class="img-notice-container">
+                    <img class="img-fluid img-thumbnail w-100" src="@notice.Img" alt="noticia">
+                </div>
+                <div class="title-notice w-75">
+                    <h5 class="text-naranja">@notice.Issue</h5>
+                    <h2 class="editorial">@notice.Title</h2>
+                </div>
+            </article>
+        </a>
 
+       
     }
 </div>

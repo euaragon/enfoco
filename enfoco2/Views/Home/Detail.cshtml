@@ -1,20 +1,24 @@
-﻿@model enfoco2.Models.Notice 
+﻿@model enfoco2.Models.NoticeDto
 
 @{
-    ViewData["Title"] = "Detalles de la Noticia";
+    ViewData["Title"] = Model.Title;
 }
 
-<div class="notice-details-container p-5">
-    <img class="img-fluid w-100" src="@Model.Img" alt="noticia">
-    <div class="title-notice">
-        <h5 class="text-naranja">@Model.Issue</h5>
-        <h2 class="editorial">@Model.Title</h2>
-    </div>
-    <div class="subtitle">
-        <h4>@Model.Subtitle</h4>
-    </div>
-    <div class="notice-text">
-        <p>@Model.Text</p>
-    </div>
+@inject enfoco2.Services.NoticeService NoticeService
+@{
+    var notice = await NoticeService.GetNoticeByIdAsync(Model.Id);
+}
 
+<div class="notice-detail-container p-5">
+
+    
+        <h5 class="text-naranja notice-detail-issue">@notice.Issue</h5>
+        <h2 class="notice-detail-title">@notice.Title</h2>
+        <h3 class="notice-detail-subtitle">@notice.Subtitle</h3>
+   
+        <img class="img-fluid img-thumbnail w-100" src="@notice.Img" alt="noticia">
+    
+    <div class="content-notice mt-4">
+        <p class="notice-detail-text">@Html.Raw(notice.Text)</p>
+    </div>
 </div>

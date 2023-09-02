@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eZrjR/3ygxAVKpHoWDgN13RnTusFBbsOv4ujK2QJN2g=",
+  "Hash": "RUIUwNnzAcry2yetMm6S4Nd9IiHSZLX02m8QVO4W+co=",
   "Source": "enfoco2",
   "BasePath": "_content/enfoco2",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/projectbundle/enfoco2.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/.DS_Store",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/css/site.css",
@@ -440,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/.DS_Store",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "lib/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/.DS_Store"
     },
     {
       "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",

@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 
 builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionString));
@@ -16,6 +17,13 @@ builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionS
 builder.Services.AddScoped<NoticeService>(); // Agrega esta línea
 
 //script para crear la base de datos
+// 1- instalar la dependencia ef
+//    dotnet tool install --global dotnet-ef
+
+// 2- crear el first migration
+//       dotnet ef migrations add firstmigration
+
+// 3- correr el script que crea la base de datos
 // dotnet ef database update firstmigration --project enfoco2.csproj
 
 var app = builder.Build();
@@ -39,14 +47,13 @@ app.MapPost("/noticias/", async (Notice n, EnfocoDb db) =>
     return Results.Created($"/noticia/{n.Id}", n);
 });
 
-app.MapGet("/noticias/{id:int}", async (int id, EnfocoDb db) =>
+app.MapGet("noticias/Detail/{id:int}", async (int id, EnfocoDb db) =>
 {
     return await db.Notices.FindAsync(id)
     is Notice n ? Results.Ok(n) : Results.NotFound();
 });
 
 app.MapGet("/noticias/", async (EnfocoDb db) => await db.Notices.ToListAsync());
-
 
 
 app.MapPut("/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {

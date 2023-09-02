@@ -10,6 +10,7 @@ namespace enfoco2.Services
         public NoticeService(EnfocoDb context)
 		{
             _context = context;
+
         }
 
         public IList<Notice> GetNotice()
@@ -18,8 +19,19 @@ namespace enfoco2.Services
             {
                 return _context.Notices.ToList();
             }
+
+
             return new List<Notice>();
         }
+
+        public async Task<Notice> GetNoticeByIdAsync(int id)
+        {
+            return await _context.Notices.FindAsync(id).AsTask();
+        }
+
+
     }
+
+
 }
 

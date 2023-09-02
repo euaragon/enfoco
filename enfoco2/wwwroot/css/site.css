@@ -140,6 +140,10 @@ body {
     top: -63px;
 }
 
+.title-notice h2{
+    line-height: 1.3em;
+}
+
 .title-notice h5{
   font-style: italic;
   font-weight: bolder;
@@ -151,6 +155,27 @@ body {
     overflow:hidden;
 }
 
+.notice-detail-title{
+    font-size:3em;
+}
+
+.notice-detail-subtitle {
+    font-size: 1.5em;
+    font-weight:300;
+    margin:1em 0;
+    line-height:1.5em;
+}
+
+.notice-detail-issue {
+    font-size: 1.5em;
+    margin-bottom:1em;
+}
+
+.notice-detail-text {
+    font-size: 1.1em;
+    margin-bottom:5em;
+}
+
 .footer {
     background-color: #424642 !important;
     position: absolute;
@@ -160,3 +185,11 @@ body {
     flex-wrap: wrap;
     padding: 10px 0;
 }
+
+.footer ul li a {
+    color: #ffffff !important;
+}
+
+    .footer ul li a:hover {
+        color: #c06014 !important;
+    }

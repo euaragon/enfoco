@@ -15,5 +15,9 @@ namespace enfoco2.Models
 
 		public required string Img { get; set; }
 	}
+    public class NoticeDto : Notice
+    {
+    }
+
 }
 

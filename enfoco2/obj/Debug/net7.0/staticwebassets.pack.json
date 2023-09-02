@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/enfoco2.bundle.scp.css"
     },
     {
+      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -95,6 +99,10 @@
     {
       "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
     },
     {
       "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/LICENSE",
