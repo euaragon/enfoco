@@ -56,6 +56,9 @@ article:hover{
     opacity: 0.9;
 }
 
+p {
+    font-size: 1.2em;
+}
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -96,6 +99,8 @@ body {
 
 .naranja {
   background-color: #c06014;
+  color: #ffffff !important;
+  border-radius: 7px;
 }
 
 .notice-container{
@@ -165,7 +170,7 @@ body {
 
 .notice-detail-subtitle {
     font-size: 1.3em;
-    font-weight:300;
+    font-weight:400;
     margin:1em 0;
     line-height:1.5em;
 }
@@ -176,12 +181,18 @@ body {
 }
 
 .notice-detail-text {
-    font-size: 1.1em;
     margin-bottom:5em;
 }
 
 .volver{
     padding:0;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #c06014;
+    border-color: #c06014;
 }
 
 .footer {

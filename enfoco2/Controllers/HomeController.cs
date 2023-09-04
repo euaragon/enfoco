@@ -18,19 +18,43 @@ namespace enfoco2.Controllers
         }
 
 
-        public IActionResult Index()
+        public IActionResult Index(int page = 1, int pageSize = 4)
+        {
+            var allNotices = _noticeService.GetNotice();
+
+            var totalCount = allNotices.Count();
+            var pageCount = (int)Math.Ceiling((double)totalCount / pageSize);
+
+            var notices = allNotices.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+            var model = new PagedResult<Notice>
+            {
+                Data = notices,
+                Page = page,
+                PageSize = pageSize,
+                TotalCount = totalCount,
+                TotalPages = pageCount
+            };
+
+            return View(model);
+        }
+
+
+        public IActionResult Fiscalia()
+        {
+            return View();
+        }
+        public IActionResult Etica()
         {
             return View();
         }
 
-        public IActionResult Investigacion()
+        [HttpGet]
+        public IActionResult Create()
         {
             return View();
         }
-        public IActionResult Agenda()
-        {
-            return View();
-        }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Detail(int id)
@@ -55,7 +79,19 @@ namespace enfoco2.Controllers
             return View(noticeDto);
         }
 
+      
+        [HttpPost]
+        public async Task<IActionResult> Create(Notice notice)
+        {
+            if (ModelState.IsValid)
+            {
+                // Guarda la noticia en la base de datos
+                await _noticeService.AddNoticeAsync(notice);
+                return RedirectToAction("Index");
+            }
 
+            return View(notice);
+        }
 
 
 
