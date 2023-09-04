@@ -1,4 +1,7 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations; // Asegúrate de importar esta namespace.
+
+
 namespace enfoco2.Models
 {
 	public class Notice

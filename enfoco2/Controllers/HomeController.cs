@@ -40,14 +40,21 @@ namespace enfoco2.Controllers
         }
 
 
-        public IActionResult Investigacion()
+        public IActionResult Fiscalia()
         {
             return View();
         }
-        public IActionResult Agenda()
+        public IActionResult Etica()
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> Detail(int id)
@@ -72,7 +79,19 @@ namespace enfoco2.Controllers
             return View(noticeDto);
         }
 
+      
+        [HttpPost]
+        public async Task<IActionResult> Create(Notice notice)
+        {
+            if (ModelState.IsValid)
+            {
+                // Guarda la noticia en la base de datos
+                await _noticeService.AddNoticeAsync(notice);
+                return RedirectToAction("Index");
+            }
 
+            return View(notice);
+        }
 
 
 

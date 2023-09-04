@@ -33,6 +33,14 @@ namespace enfoco2.Services
             return notice;
         }
 
+        public async Task AddNoticeAsync(Notice notice)
+        {
+            if (notice != null)
+            {
+                _context.Notices.Add(notice);
+                await _context.SaveChangesAsync();
+            }
+        }
 
     }
 

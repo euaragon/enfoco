@@ -16,20 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\earagon.TRIBUNAL\Desktop\enfoco2\enfoco2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Agenda.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ2VuZGEuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Etica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdGljYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Investigacion.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnZlc3RpZ2FjaW9uLmNzaHRtbA==
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Fiscalia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaXNjYWxpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/Error.cshtml]
