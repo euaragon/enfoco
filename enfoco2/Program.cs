@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 
+
 builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionString));
 
 // Registrar el servicio NoticeService
@@ -29,11 +30,7 @@ builder.Services.AddScoped<NoticeService>(); // Agrega esta línea
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 
@@ -44,17 +41,16 @@ app.MapPost("/noticias/", async (Notice n, EnfocoDb db) =>
     db.Notices.Add(n);
     await db.SaveChangesAsync();
 
-    return Results.Created($"/noticia/{n.Id}", n);
+    return Results.Created($"/noticias/{n.Id}", n);
 });
 
-app.MapGet("/{id:int}", async (int id, EnfocoDb db) =>
+app.MapGet("noticias/Detail/{id:int}", async (int id, EnfocoDb db) =>
 {
     return await db.Notices.FindAsync(id)
     is Notice n ? Results.Ok(n) : Results.NotFound();
 });
 
 app.MapGet("/noticias/", async (EnfocoDb db) => await db.Notices.ToListAsync());
-
 
 
 app.MapPut("/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
@@ -102,11 +98,6 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.MapControllerRoute(
-    name: "Detail",
-    pattern: "/{id:int}",
-    defaults: new { controller = "Home", action = "Detail" });
 
 app.Run();
 

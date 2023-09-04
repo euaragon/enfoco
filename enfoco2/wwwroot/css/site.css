@@ -44,11 +44,6 @@ h6{
   font-size: 9pt;
 }
 
-header {
-    box-shadow: -1px 3px 28px -10px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 3px 28px -10px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 3px 28px -10px rgba(0,0,0,0.75);
-}
 .text-dark {
   color: #424642 !important;
 }
@@ -126,11 +121,15 @@ body {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 90%;
+}
+
+.img-notice-big-container {
+    width: 80%;
+
 }
 
 .title-notice {
-  background-color: #fff;
+  background-color: #ffffff;
   border: 2px solid #c06014;
   box-shadow: 7px 9px 0px 0px #c06014;
   -webkit-box-shadow: 7px 9px 0px 0px #c06014;
@@ -145,6 +144,10 @@ body {
     top: -63px;
 }
 
+.title-notice h2{
+    line-height: 1.3em;
+}
+
 .title-notice h5{
   font-style: italic;
   font-weight: bolder;
@@ -156,6 +159,38 @@ body {
     overflow:hidden;
 }
 
+.notice-detail-title{
+    font-size:2.7em;
+}
+
+.notice-detail-subtitle {
+    font-size: 1.3em;
+    font-weight:300;
+    margin:1em 0;
+    line-height:1.5em;
+}
+
+.notice-detail-issue {
+    font-size: 1.5em;
+    margin-bottom:1em;
+}
+
+.notice-detail-text {
+    font-size: 1.1em;
+    margin-bottom:5em;
+}
+
+.volver{
+    padding:0;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #c06014;
+    border-color: #c06014;
+}
+
 .footer {
     background-color: #424642 !important;
     position: absolute;
@@ -165,3 +200,11 @@ body {
     flex-wrap: wrap;
     padding: 10px 0;
 }
+
+.footer ul li a {
+    color: #ffffff !important;
+}
+
+    .footer ul li a:hover {
+        color: #c06014 !important;
+    }

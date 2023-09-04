@@ -1,4 +1,5 @@
 ﻿
+using System.Diagnostics;
 using enfoco2.Data;
 using enfoco2.Models;
 
@@ -17,16 +18,19 @@ namespace enfoco2.Services
         {
             if (_context.Notices != null)
             {
-                return _context.Notices.ToList();
+                var notices = _context.Notices.ToList();
+                Debug.WriteLine($"Cuantas noticias hay: {notices.Count}");
+                return notices;
             }
 
 
             return new List<Notice>();
         }
 
-        public async Task<Notice> GetNoticeByIdAsync(int id)
+        public async Task<Notice?> GetNoticeByIdAsync(int id)
         {
-            return await _context.Notices.FindAsync(id).AsTask();
+            var notice = await _context.Notices.FindAsync(id);
+            return notice;
         }
 
 

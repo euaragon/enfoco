@@ -1,21 +1,28 @@
-﻿@model enfoco2.Models.Notice
+﻿@model enfoco2.Models.NoticeDto
 
 @{
-    ViewData["Title"] = "Detalle de Noticia";
+    ViewData["Title"] = Model.Title;
 }
 
-<div class="notice-detail-container">
-    @if (Model != null)
-    {
-            <h2>@Model.Title</h2>
-            <div class="img-notice-container">
-                <img class="img-fluid img-thumbnail" src="@Model.Img" alt="noticia">
-            </div>
-            <p>@Model.Text</p>
-            <!-- Otros detalles de la noticia, como autor, fecha, etc. -->
-    }
-    else
-    {
-            <p>No se encontró la noticia.</p>
-    }
+@inject enfoco2.Services.NoticeService NoticeService
+@{
+    var notice = await NoticeService.GetNoticeByIdAsync(Model.Id);
+}
+
+
+
+<div class="notice-detail-container p-5">
+
+
+    <h5 class="text-naranja notice-detail-issue">@notice.Issue</h5>
+    <h2 class="notice-detail-title">@notice.Title</h2>
+    <h3 class="notice-detail-subtitle">@notice.Subtitle</h3>
+
+    <img class="img-fluid img-thumbnail w-100" src="@notice.Img" alt="noticia">
+
+    <div class="content-notice mt-4">
+        <p class="notice-detail-text">@Html.Raw(notice.Text)</p>
+    </div>
+
+    <a href="javascript:history.back()" class="btn volver"><img style="position: relative; top:-1px;" width="24" height="24" src="https://img.icons8.com/material/24/000000/back--v1.png" alt="back--v1" />VOLVER</a>
 </div>

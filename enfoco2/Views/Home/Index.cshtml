@@ -1,13 +1,13 @@
-﻿@{
+﻿@model PagedResult<enfoco2.Models.Notice>
+
+@{
     ViewData["Title"] = "Revista ENFOCO";
 }
 
-@inject enfoco2.Services.NoticeService NoticeService
-
 <div class="text-center notice-container p-5">
-    @foreach (var notice in NoticeService.GetNotice())
+    @foreach (var notice in Model.Data)
     {
-        <a href="/@notice.Id" class="notice-link"> 
+        <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
             <article class="notice">
                 <div class="img-notice-container">
                     <img class="img-fluid img-thumbnail w-100" src="@notice.Img" alt="noticia">
@@ -21,3 +21,39 @@
     }
 </div>
 
+
+<div class="text-center container d-flex justify-content-center">
+    @if (Model.TotalPages > 1)
+    {
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                @if (Model.Page > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("Index", "Home", new { page = 1 })">Primera</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.Page - 1 })">Anterior</a>
+                    </li>
+                }
+
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.Page ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("Index", "Home", new { page = i })">@i</a>
+                    </li>
+                }
+
+                @if (Model.Page < Model.TotalPages)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.Page + 1 })">Siguiente</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.TotalPages })">Última</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+</div>
