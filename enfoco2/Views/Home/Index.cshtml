@@ -9,8 +9,8 @@
     {
         <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
             <article class="notice">
-                <div class="img-notice-container">
-                    <img class="img-fluid img-thumbnail w-100" src="@notice.Img" alt="noticia">
+                <div class="img-notice-container img-thumbnail">
+                    <img class="img-fluid  w-100" src="@notice.Img" alt="noticia">
                 </div>
                 <div class="title-notice w-75">
                     <h5 class="text-naranja">@notice.Issue</h5>
@@ -20,7 +20,6 @@
         </a>
     }
 </div>
-
 
 <div class="text-center container d-flex justify-content-center">
     @if (Model.TotalPages > 1)
