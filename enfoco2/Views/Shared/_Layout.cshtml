@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/enfoco2.styles.css" asp-append-version="true" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
@@ -33,14 +34,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Etica">ÉTICA PÚBLICA</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link naranja me-3 ms-3" asp-controller="Home" asp-action="Create">Crear</a>
-                        </li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link naranja me-3 ms-3" asp-controller="Home" asp-action="Create">Crear</a>
+                            </li>
+                            }
+                            else
+                            {
+                            <li class="nav-item">
+                                <a class="nav-link  me-3 ms-3" asp-controller="Home" asp-action="Login"><img width="24" height="24" src="https://img.icons8.com/material/24/000000/user-male-circle--v1.png" alt="user-male-circle--v1" /></a>
+                            </li>
+                            }
 
 
 
-
-                    </ul>
+                        </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search">
                         <button class="btn" type="submit"><img class="w-50" src="https://img.icons8.com/424642/search"></button>
@@ -59,11 +69,11 @@
         <div class="container">
             <nav class="navbar navbar-expand-sm navbar-toggleable-sm justify-content-between">
                 <ul class="navbar-nav flex organismos">
-                    <li class="nav-item"><a target="_blank" href="https://www.tribunaldecuentas.mendoza.gov.ar/">Tribunal de Cuentas</a></li>
+                    <li class="nav-item p-1"><a target="_blank" href="https://www.tribunaldecuentas.mendoza.gov.ar/">Tribunal de Cuentas</a></li>
 
-                    <li class="nav-item"><a target="_blank" href="http://fiscalia.mendoza.gov.ar/">Fiscalía de Estado</a></li>
+                    <li class="nav-item p-1"><a target="_blank" href="http://fiscalia.mendoza.gov.ar/">Fiscalía de Estado</a></li>
 
-                    <li class="nav-item"><a target="_blank" href="https://eticapublica.mendoza.gov.ar/">Ética Pública</a></li>
+                    <li class="nav-item p-1"><a target="_blank" href="https://eticapublica.mendoza.gov.ar/">Ética Pública</a></li>
                 </ul>
 
                 <form class="newsletter">
@@ -75,13 +85,34 @@
                     <button class="btn naranja text-light" type="submit">Enviar</button>
                 </form>
             </nav>
-           
+
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>document.querySelector('#createForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevenir el envío automático del formulario
+
+            // Mostrar una ventana de confirmación con SweetAlert
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: '¿Quieres guardar esta noticia?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Guardar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Si el usuario confirma, enviar el formulario
+                    this.submit();
+                }
+            });
+        });</script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
 

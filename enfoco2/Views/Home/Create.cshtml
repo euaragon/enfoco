@@ -3,28 +3,29 @@
 <div class="p-5">
     <h3 class="mb-4">Crear Noticia</h3>
 
-<form asp-controller="Home" asp-action="Create" method="post">
+    <form id="createForm" asp-controller="Home" asp-action="Create" method="post">
         <div class="form-group mt-3 mb-3">
-        <label for="Title">Título:</label>
-        <input type="text" class="form-control" id="Title" name="Title" required>
-    </div>
+            <label for="Title">Título:</label>
+            <input type="text" class="form-control" id="Title" name="Title" required>
+        </div>
         <div class="form-group mt-3 mb-3">
-        <label for="Subtitle">Subtítulo:</label>
-        <input type="text" class="form-control" id="Subtitle" name="Subtitle" required>
-    </div>
+            <label for="Subtitle">Subtítulo:</label>
+            <input type="text" class="form-control" id="Subtitle" name="Subtitle" required>
+        </div>
         <div class="form-group mt-3 mb-3">
-        <label for="Issue">Tema:</label>
-        <input type="text" class="form-control" id="Issue" name="Issue" required>
-    </div>
+            <label for="Issue">Tema:</label>
+            <input type="text" class="form-control" id="Issue" name="Issue" required>
+        </div>
         <div class="form-group mt-3 mb-3">
-        <label for="Text">Contenido:</label>
-        <textarea class="form-control" id="Text" name="Text" rows="4" required></textarea>
-    </div>
+            <label for="Text">Contenido:</label>
+            <textarea class="form-control" id="Text" name="Text" rows="4" required></textarea>
+        </div>
         <div class="form-group mt-3 mb-3">
-        <label for="Img">URL de la Imagen:</label>
-        <input type="text" class="form-control" id="Img" name="Img">
-    </div>
-    <button type="submit" class="btn naranja mt-3 mb-3">Guardar</button>
-</form>
+            <label for="Img">URL de la Imagen:</label>
+            <input type="text" class="form-control" id="Img" name="Img">
+        </div>
+        <button type="submit" class="btn naranja mt-3 mb-3">Guardar</button>
+    </form>
 
 </div>
+

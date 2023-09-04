@@ -2,11 +2,17 @@
 using enfoco2.Models;
 using enfoco2.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 
 
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
@@ -17,6 +23,11 @@ builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionS
 // Registrar el servicio NoticeService
 builder.Services.AddScoped<NoticeService>(); // Agrega esta línea
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+.AddCookie(options =>
+{
+    options.LoginPath = "/Home/Login"; // Ruta para el inicio de sesión
+});
 //script para crear la base de datos
 // 1- instalar la dependencia ef
 //    dotnet tool install --global dotnet-ef
@@ -92,6 +103,8 @@ app.MapDelete("/noticias/{id:int}", async (int id, EnfocoDb db) => {
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

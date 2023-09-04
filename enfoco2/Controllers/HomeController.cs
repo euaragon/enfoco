@@ -2,6 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using enfoco2.Models;
 using enfoco2.Services;
+using Microsoft.AspNetCore.Authorization;
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace enfoco2.Controllers
 {
@@ -49,9 +56,45 @@ namespace enfoco2.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Create()
         {
+            return View();
+        }
+
+        private const string user = "HTC";
+        private const string password = "123456";
+
+
+
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string userEntered, string passwordEntered)
+        {
+            if (userEntered == user && passwordEntered == password)
+            {
+                var claims = new[] {
+                    new Claim(ClaimTypes.Name, userEntered), // Puedes agregar otros reclamos según tus necesidades
+                };
+
+                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                var principal = new ClaimsPrincipal(identity);
+
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+                return RedirectToAction("Index");
+            }
+
+            // Si las credenciales no son válidas, mostrar un mensaje de error o redirigir a la página de inicio de sesión nuevamente.
+            ModelState.AddModelError(string.Empty, "Credenciales no válidas");
             return View();
         }
 
