@@ -7,10 +7,10 @@
 @if (Model.Data.Count == 0)
 {
 
-    <h3 class="alert alert-danger m-3">
-        No se encontraron noticias 
-    </h3>
-    <a class="btn naranja m-3" href="@Url.Action("Index", "Home")">VOLVER</a>
+    <p class="alert alert-danger m-3">
+        No se encontraron noticias. <a class="alert-link" href="@Url.Action("Index", "Home")">Volver a la página principal</a>
+    </p>
+    
 }
 
 <div class="text-center notice-container p-5">
