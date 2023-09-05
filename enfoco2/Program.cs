@@ -27,6 +27,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 .AddCookie(options =>
 {
     options.LoginPath = "/Home/Login"; // Ruta para el inicio de sesión
+    options.LogoutPath = "/Home/Logout"; // Ruta para el cierre de sesión
 });
 //script para crear la base de datos
 // 1- instalar la dependencia ef

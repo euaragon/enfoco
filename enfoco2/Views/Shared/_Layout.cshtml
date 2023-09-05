@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow p-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow p-3 align-items-center">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="w-75" src="~/img/logo.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -23,7 +23,7 @@
                     </span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex">
-                    <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap">
+                    <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap align-items-center">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TRIBUNAL DE CUENTAS</a>
                         </li>
@@ -38,19 +38,23 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
-                                <a class="nav-link naranja me-3 ms-3" asp-controller="Home" asp-action="Create">Crear</a>
+                                <form id="logoutForm" method="post" asp-controller="Home" asp-action="Logout">
+                                    <button class="btn naranja me-3 ms-3" type="submit">Cerrar Sesión</button>
+                                </form>
                             </li>
-                            }
-                            else
-                            {
+                            <a class="nav-link naranja me-3 ms-3 crear" asp-controller="Home" asp-action="Create">CREAR</a>
+
+                        }
+                        else
+                        {
                             <li class="nav-item">
-                                <a class="nav-link  me-3 ms-3" asp-controller="Home" asp-action="Login"><img width="24" height="24" src="https://img.icons8.com/material/24/000000/user-male-circle--v1.png" alt="user-male-circle--v1" /></a>
+                                <a class="nav-link  me-3 ms-3" asp-controller="Home" asp-action="Login"><img width="26" height="26" src="https://img.icons8.com/material/24/000000/user-male-circle--v1.png" alt="user-male-circle--v1" /></a>
                             </li>
-                            }
+                        }
 
 
 
-                        </ul>
+                    </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search">
                         <button class="btn" type="submit"><img class="w-50" src="https://img.icons8.com/424642/search"></button>

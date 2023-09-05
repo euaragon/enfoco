@@ -195,6 +195,13 @@ body {
     border-color: #c06014;
 }
 
+.crear{
+    position: fixed;
+    bottom: 100px;
+    right:20px;
+    z-index:999999;
+}
+
 .footer {
     background-color: #424642 !important;
     position: absolute;
