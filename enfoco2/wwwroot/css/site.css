@@ -99,7 +99,8 @@ body {
 
 .naranja {
   background-color: #c06014;
-  color: #ffffff !important; 
+  color: #ffffff !important;
+  border-radius: 7px;
 }
 
 .notice-container{
@@ -192,6 +193,18 @@ body {
     color: #fff !important;
     background-color: #c06014;
     border-color: #c06014;
+}
+
+.crear{
+    position: fixed;
+    bottom: 100px;
+    right:20px;
+    z-index:999999;
+}
+
+.linea-abajo {
+    border-bottom: 1px solid #424642;
+    padding-bottom:1em
 }
 
 .footer {

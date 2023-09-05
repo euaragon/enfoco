@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/enfoco2.styles.css" asp-append-version="true" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow p-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom shadow-sm p-3 align-items-center">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="w-75" src="~/img/logo.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -22,7 +23,7 @@
                     </span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex">
-                    <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap">
+                    <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap align-items-center">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TRIBUNAL DE CUENTAS</a>
                         </li>
@@ -33,18 +34,33 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Etica">ÉTICA PÚBLICA</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Create">Crear</a>
-                        </li>
 
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <form id="logoutForm" method="post" asp-controller="Home" asp-action="Logout">
+                                    <button class="btn text-light bg-danger me-3 ms-3" type="submit">Cerrar Sesión</button>
+                                </form>
+                            </li>
+                            <a class="nav-link text-light bg-success me-3 ms-3 crear rounded-2" asp-controller="Home" asp-action="Create">CREAR</a>
+
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link  me-3 ms-3 rounded-2" asp-controller="Home" asp-action="Login"><img width="26" height="26" src="https://img.icons8.com/material/24/000000/user-male-circle--v1.png" alt="user-male-circle--v1" /></a>
+                            </li>
+                        }
 
 
 
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search">
-                        <button class="btn" type="submit"><img class="w-50" src="https://img.icons8.com/424642/search"></button>
+                    <form class="d-flex" asp-controller="Home" asp-action="Search" role="search" method="get">
+                        <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search" name="searchTerm">
+                        <button class="btn rounded-2" type="submit"><img class="w-50" src="https://img.icons8.com/424642/search"></button>
                     </form>
+
+
                 </div>
             </div>
         </nav>
@@ -59,11 +75,11 @@
         <div class="container">
             <nav class="navbar navbar-expand-sm navbar-toggleable-sm justify-content-between">
                 <ul class="navbar-nav flex organismos">
-                    <li class="nav-item"><a target="_blank" href="https://www.tribunaldecuentas.mendoza.gov.ar/">Tribunal de Cuentas</a></li>
+                    <li class="nav-item p-1"><a target="_blank" href="https://www.tribunaldecuentas.mendoza.gov.ar/">Tribunal de Cuentas</a></li>
 
-                    <li class="nav-item"><a target="_blank" href="http://fiscalia.mendoza.gov.ar/">Fiscalía de Estado</a></li>
+                    <li class="nav-item p-1"><a target="_blank" href="http://fiscalia.mendoza.gov.ar/">Fiscalía de Estado</a></li>
 
-                    <li class="nav-item"><a target="_blank" href="https://eticapublica.mendoza.gov.ar/">Ética Pública</a></li>
+                    <li class="nav-item p-1"><a target="_blank" href="https://eticapublica.mendoza.gov.ar/">Ética Pública</a></li>
                 </ul>
 
                 <form class="newsletter">
@@ -72,16 +88,37 @@
                         <span class="input-group-text">&#64;</span>
                         <input type="email" class="form-control" placeholder="email">
                     </div>
-                    <button class="btn naranja text-light" type="submit">Enviar</button>
+                    <button class="btn naranja text-light rounded-2" type="submit">Enviar</button>
                 </form>
             </nav>
-           
+
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>document.querySelector('#createForm').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevenir el envío automático del formulario
+
+            // Mostrar una ventana de confirmación con SweetAlert
+            Swal.fire({
+                title: '¿Estás seguro?',
+                text: '¿Quieres guardar esta noticia?',
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Guardar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Si el usuario confirma, enviar el formulario
+                    this.submit();
+                }
+            });
+        });</script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
 

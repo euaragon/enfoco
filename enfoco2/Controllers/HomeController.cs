@@ -2,6 +2,13 @@
 using Microsoft.AspNetCore.Mvc;
 using enfoco2.Models;
 using enfoco2.Services;
+using Microsoft.AspNetCore.Authorization;
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Linq;
 
 namespace enfoco2.Controllers
 {
@@ -18,7 +25,7 @@ namespace enfoco2.Controllers
         }
 
 
-        public IActionResult Index(int page = 1, int pageSize = 2)
+        public IActionResult Index(int page = 1, int pageSize = 4)
         {
             var allNotices = _noticeService.GetNotice();
 
@@ -49,9 +56,45 @@ namespace enfoco2.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Create()
         {
+            return View();
+        }
+
+        private const string user = "revista-enfoco";
+        private const string password = "r3v1st4";
+
+
+
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string userEntered, string passwordEntered)
+        {
+            if (userEntered == user && passwordEntered == password)
+            {
+                var claims = new[] {
+                    new Claim(ClaimTypes.Name, userEntered), // Puedes agregar otros reclamos según tus necesidades
+                };
+
+                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                var principal = new ClaimsPrincipal(identity);
+
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
+
+                return RedirectToAction("Index");
+            }
+
+            // Si las credenciales no son válidas, mostrar un mensaje de error o redirigir a la página de inicio de sesión nuevamente.
+            ModelState.AddModelError(string.Empty, "Credenciales no válidas");
             return View();
         }
 
@@ -79,7 +122,39 @@ namespace enfoco2.Controllers
             return View(noticeDto);
         }
 
-      
+
+        [HttpGet]
+        public IActionResult Search(string searchTerm, int page = 1, int pageSize = 4)
+        {
+            if (string.IsNullOrEmpty(searchTerm))
+            {
+                // Puedes manejar la búsqueda vacía aquí si lo deseas.
+                // En este ejemplo, simplemente redirigimos al método Index sin hacer nada.
+                return RedirectToAction("Index");
+            }
+
+            // Realiza la búsqueda en la base de datos utilizando el servicio NoticeService.
+            var searchResults = _noticeService.SearchNotices(searchTerm);
+
+            var totalCount = searchResults.Count();
+            var pageCount = (int)Math.Ceiling((double)totalCount / pageSize);
+
+            var notices = searchResults.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+            var model = new PagedResult<Notice>
+            {
+                Data = notices,
+                Page = page,
+                PageSize = pageSize,
+                TotalCount = totalCount,
+                TotalPages = pageCount
+            };
+
+            // Renderiza la vista Index con los resultados de búsqueda.
+            return View("Index", model);
+        }
+
+
         [HttpPost]
         public async Task<IActionResult> Create(Notice notice)
         {
@@ -93,6 +168,14 @@ namespace enfoco2.Controllers
             return View(notice);
         }
 
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

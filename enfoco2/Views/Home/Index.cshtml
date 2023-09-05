@@ -4,15 +4,24 @@
     ViewData["Title"] = "Revista ENFOCO";
 }
 
+@if (Model.Data.Count == 0)
+{
+
+    <h3 class="alert alert-danger m-3">
+        No se encontraron noticias 
+    </h3>
+    <a class="btn naranja m-3" href="@Url.Action("Index", "Home")">VOLVER</a>
+}
+
 <div class="text-center notice-container p-5">
     @foreach (var notice in Model.Data)
     {
         <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
             <article class="notice">
-                <div class="img-notice-container img-thumbnail">
-                    <img class="img-fluid  w-100" src="@notice.Img" alt="noticia">
+                <div class="img-notice-container rounded-2">
+                    <img class="img-fluid  w-100 rounded-2" src="@notice.Img" alt="noticia">
                 </div>
-                <div class="title-notice w-75">
+                <div class="title-notice w-75 rounded-2">
                     <h5 class="text-naranja">@notice.Issue</h5>
                     <h2 class="editorial">@notice.Title</h2>
                 </div>
