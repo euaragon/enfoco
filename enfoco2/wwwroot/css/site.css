@@ -202,6 +202,11 @@ body {
     z-index:999999;
 }
 
+.linea-abajo {
+    border-bottom: 1px solid #424642;
+    padding-bottom:1em
+}
+
 .footer {
     background-color: #424642 !important;
     position: absolute;
