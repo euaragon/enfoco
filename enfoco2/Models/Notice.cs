@@ -1,5 +1,5 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations; // Asegúrate de importar esta namespace.
+using System.ComponentModel.DataAnnotations; 
 
 
 namespace enfoco2.Models

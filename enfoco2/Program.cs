@@ -2,16 +2,15 @@
 using enfoco2.Models;
 using enfoco2.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Builder;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 
 

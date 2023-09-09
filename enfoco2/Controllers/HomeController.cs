@@ -3,10 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using enfoco2.Models;
 using enfoco2.Services;
 using Microsoft.AspNetCore.Authorization;
-using System;
-using System.Collections.Generic;
 using System.Security.Claims;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
@@ -63,8 +60,8 @@ namespace enfoco2.Controllers
             return View();
         }
 
-        private const string user = "HTC";
-        private const string password = "123456";
+        private const string user = "enfoco";
+        private const string password = "revista";
 
 
 
@@ -81,7 +78,7 @@ namespace enfoco2.Controllers
             if (userEntered == user && passwordEntered == password)
             {
                 var claims = new[] {
-                    new Claim(ClaimTypes.Name, userEntered), // Puedes agregar otros reclamos según tus necesidades
+                    new Claim(ClaimTypes.Name, userEntered), 
                 };
 
                 var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -93,7 +90,7 @@ namespace enfoco2.Controllers
                 return RedirectToAction("Index");
             }
 
-            // Si las credenciales no son válidas, mostrar un mensaje de error o redirigir a la página de inicio de sesión nuevamente.
+          
             ModelState.AddModelError(string.Empty, "Credenciales no válidas");
             return View();
         }
@@ -122,13 +119,43 @@ namespace enfoco2.Controllers
             return View(noticeDto);
         }
 
-      
+
+        [HttpGet]
+        public IActionResult Search(string searchTerm, int page = 1, int pageSize = 4)
+        {
+            if (string.IsNullOrEmpty(searchTerm))
+            {
+                
+                return RedirectToAction("Index");
+            }
+
+            var searchResults = _noticeService.SearchNotices(searchTerm);
+
+            var totalCount = searchResults.Count();
+            var pageCount = (int)Math.Ceiling((double)totalCount / pageSize);
+
+            var notices = searchResults.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+            var model = new PagedResult<Notice>
+            {
+                Data = notices,
+                Page = page,
+                PageSize = pageSize,
+                TotalCount = totalCount,
+                TotalPages = pageCount
+            };
+
+
+            return View("Index", model);
+        }
+
+
         [HttpPost]
         public async Task<IActionResult> Create(Notice notice)
         {
             if (ModelState.IsValid)
             {
-                // Guarda la noticia en la base de datos
+
                 await _noticeService.AddNoticeAsync(notice);
                 return RedirectToAction("Index");
             }
