@@ -4,14 +4,14 @@
     ViewData["Title"] = "Editorial - ENFOCO";
 }
 
+<h1 class="p-5">Noticias de Editorial</h1>
 
-
-<div class="notice-container p-5">
-    <h1>Noticias de Editorial</h1>
+<div class="notice-container p-3">
+    
     @foreach (var notice in Model)
     {
         <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
-            <article class="@(notice.IsFeatured ? "notice-big" : "notice")">
+            <article class="notice">
                 <div class="img-notice-container rounded-2">
                     <img class="img-fluid w-100 rounded-2" src="@notice.Img" alt="noticia">
                 </div>
