@@ -24,7 +24,7 @@ namespace enfoco2.Controllers
 
         public IActionResult Index(int page = 1, int pageSize = 4)
         {
-            var allNotices = _noticeService.GetNotice();
+            var allNotices = _noticeService.GetNotice().OrderByDescending(notice => notice.Id);
 
             var totalCount = allNotices.Count();
             var pageCount = (int)Math.Ceiling((double)totalCount / pageSize);
@@ -44,13 +44,24 @@ namespace enfoco2.Controllers
         }
 
 
-        public IActionResult Fiscalia()
+
+        public IActionResult Editorial()
         {
-            return View();
+            var editorialNotices = _noticeService.GetNotice()
+                .Where(notice => notice.Section == NoticeSection.category1)
+                .ToList();
+
+            return View(editorialNotices);
         }
-        public IActionResult Etica()
+
+
+        public IActionResult Entrevistas()
         {
-            return View();
+            var entrevistasNotices = _noticeService.GetNotice()
+                .Where(notice => notice.Section == NoticeSection.category2)
+                .ToList();
+
+            return View(entrevistasNotices);
         }
 
         [Authorize]
@@ -113,7 +124,11 @@ namespace enfoco2.Controllers
                 Issue = notice.Issue,
                 Subtitle = notice.Subtitle,
                 Text = notice.Text,
-                Img = notice.Img
+                Img = notice.Img,
+                IsFeatured = notice.IsFeatured,
+                Category = notice.Category,
+                Section = notice.Section
+
             };
 
             return View(noticeDto);
@@ -155,6 +170,7 @@ namespace enfoco2.Controllers
         {
             if (ModelState.IsValid)
             {
+                notice.IsFeatured = Request.Form["IsFeatured"] == "on";
 
                 await _noticeService.AddNoticeAsync(notice);
                 return RedirectToAction("Index");
@@ -162,6 +178,7 @@ namespace enfoco2.Controllers
 
             return View(notice);
         }
+
 
 
         [HttpPost]

@@ -17,12 +17,12 @@ namespace enfoco2.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.10")
+                .HasAnnotation("ProductVersion", "7.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("enfoco2.Models.Etica", b =>
+            modelBuilder.Entity("enfoco2.Models.Newsletter", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -33,71 +33,13 @@ namespace enfoco2.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Img")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<bool>("IsFeatured")
-                        .HasColumnType("boolean");
-
-                    b.Property<string>("Issue")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Subtitle")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Text")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Title")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Eticas");
-                });
-
-            modelBuilder.Entity("enfoco2.Models.Fiscalia", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("Img")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<bool>("IsFeatured")
-                        .HasColumnType("boolean");
-
-                    b.Property<string>("Issue")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Subtitle")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Text")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Fiscalias");
+                    b.ToTable("Newsletter");
                 });
 
             modelBuilder.Entity("enfoco2.Models.Notice", b =>
@@ -108,8 +50,8 @@ namespace enfoco2.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<int>("Category")
+                        .HasColumnType("integer");
 
                     b.Property<string>("Img")
                         .IsRequired()
@@ -121,6 +63,9 @@ namespace enfoco2.Migrations
                     b.Property<string>("Issue")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int>("Section")
+                        .HasColumnType("integer");
 
                     b.Property<string>("Subtitle")
                         .IsRequired()

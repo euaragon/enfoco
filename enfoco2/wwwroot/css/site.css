@@ -103,6 +103,8 @@ body {
   border-radius: 7px;
 }
 
+
+
 .notice-container{
   display: flex;
   flex-direction: row;
@@ -145,7 +147,41 @@ body {
   text-align: left;
 }
 
-.title-notice:hover{
+.title-notice-tribunal {
+    
+    border: 2px solid #22709a;
+    box-shadow: 7px 9px 0px 0px #22709a;
+    -webkit-box-shadow: 7px 9px 0px 0px #22709a;
+    -moz-box-shadow: 7px 9px 0px 0px #22709a;
+}
+
+    .title-notice-tribunal:hover {
+        color: #22709a;
+    } 
+
+.title-notice-etica {
+    border: 2px solid #01595a;
+    box-shadow: 7px 9px 0px 0px #01595a;
+    -webkit-box-shadow: 7px 9px 0px 0px #01595a;
+    -moz-box-shadow: 7px 9px 0px 0px #01595a;
+}
+
+    .title-notice-etica:hover {
+        color: #01595a;
+    }
+
+    .title-notice-fiscalia {
+        border: 2px solid #83192d;
+        box-shadow: 7px 9px 0px 0px #83192d;
+        -webkit-box-shadow: 7px 9px 0px 0px #83192d;
+        -moz-box-shadow: 7px 9px 0px 0px #83192d;
+    }
+
+        .title-notice-fiscalia:hover {
+            color: #83192d;
+        }
+
+.title-notice:hover {
     top: -63px;
 }
 

@@ -14,7 +14,6 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom shadow-sm p-3 align-items-center">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="w-75" src="~/img/logo.png" /></a>
-                <h5 class="la-revi">LA <b>REVISTA DIGITAL</b> DE LOS ORGANISMOS DE CONTROL DE MENDOZA</h5>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -26,15 +25,22 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex">
                     <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap align-items-center col">
                         @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TRIBUNAL DE CUENTAS</a>
-                        </li>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TRIBUNAL DE CUENTAS</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Fiscalia">FISCALÍA DE ESTADO</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Etica">ÉTICA PÚBLICA</a>
+        </li>*@
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Fiscalia">FISCALÍA DE ESTADO</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Editorial">Editorial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Etica">ÉTICA PÚBLICA</a>
-                        </li>*@
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Entrevistas">Entrevistas</a>
+                        </li>
 
                         @if (User.Identity.IsAuthenticated)
                         {
@@ -45,10 +51,10 @@
                             </li>
                             <li class="nav-item me-2 p-3">
                                 <a asp-controller="Home" asp-action="Create">
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30 " height="30" viewBox="0,0,256,256"><g fill="#c06014" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(2,2)"><path d="M115.01172,1.46289c-3.0625,0.0125 -6.11211,1.18711 -8.41211,3.53711l-37.40039,37.30078c-9.2,9.2 -16.1,20.69922 -20,33.19922c-0.3,1.1 0.00117,2.2 0.70117,3c0.6,0.6 1.29961,0.90039 2.09961,0.90039c0.3,0 0.60039,0.00039 0.90039,-0.09961c12.5,-3.8 23.99922,-10.8 33.19922,-20l31.59961,-31.60156c0.9,1.2 1.40039,2.70117 1.40039,4.20117c0,1.9 -0.69961,3.60039 -2.09961,4.90039l-15.59961,15.59961c-1.2,1.2 -1.2,3.09922 0,4.19922c0.6,0.6 1.39961,0.90039 2.09961,0.90039c0.7,0 1.49961,-0.30039 2.09961,-0.90039l15.80078,-15.59961c2.5,-2.5 3.79883,-5.69922 3.79883,-9.19922c0,-3.1 -1.09961,-6.1 -3.09961,-8.5l1.40039,-1.40039c4.7,-4.7 4.7,-12.3 0,-17c-2.35,-2.3 -5.42578,-3.45 -8.48828,-3.4375zM19,6c-7.2,0 -13,5.8 -13,13v90c0,7.2 5.8,13 13,13h90c7.2,0 13,-5.8 13,-13v-40c0,-1.7 -1.3,-3 -3,-3c-1.7,0 -3,1.3 -3,3v40c0,3.9 -3.1,7 -7,7h-90c-3.9,0 -7,-3.1 -7,-7v-90c0,-3.9 3.1,-7 7,-7h60c1.7,0 3,-1.3 3,-3c0,-1.7 -1.3,-3 -3,-3zM115,7.5c1.5,0 3.09922,0.60078 4.19922,1.80078c2.4,2.3 2.40156,6.09844 0.10156,8.39844l-37.30078,37.30078c-7.1,7.1 -15.7,12.7 -25,16.5c3.7,-9.3 9.4,-17.80039 16.5,-24.90039l37.30078,-37.29883c1.2,-1.2 2.69922,-1.80078 4.19922,-1.80078z"></path></g></g></svg>
-        </a>
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30 " height="30" viewBox="0,0,256,256"><g fill="#c06014" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(2,2)"><path d="M115.01172,1.46289c-3.0625,0.0125 -6.11211,1.18711 -8.41211,3.53711l-37.40039,37.30078c-9.2,9.2 -16.1,20.69922 -20,33.19922c-0.3,1.1 0.00117,2.2 0.70117,3c0.6,0.6 1.29961,0.90039 2.09961,0.90039c0.3,0 0.60039,0.00039 0.90039,-0.09961c12.5,-3.8 23.99922,-10.8 33.19922,-20l31.59961,-31.60156c0.9,1.2 1.40039,2.70117 1.40039,4.20117c0,1.9 -0.69961,3.60039 -2.09961,4.90039l-15.59961,15.59961c-1.2,1.2 -1.2,3.09922 0,4.19922c0.6,0.6 1.39961,0.90039 2.09961,0.90039c0.7,0 1.49961,-0.30039 2.09961,-0.90039l15.80078,-15.59961c2.5,-2.5 3.79883,-5.69922 3.79883,-9.19922c0,-3.1 -1.09961,-6.1 -3.09961,-8.5l1.40039,-1.40039c4.7,-4.7 4.7,-12.3 0,-17c-2.35,-2.3 -5.42578,-3.45 -8.48828,-3.4375zM19,6c-7.2,0 -13,5.8 -13,13v90c0,7.2 5.8,13 13,13h90c7.2,0 13,-5.8 13,-13v-40c0,-1.7 -1.3,-3 -3,-3c-1.7,0 -3,1.3 -3,3v40c0,3.9 -3.1,7 -7,7h-90c-3.9,0 -7,-3.1 -7,-7v-90c0,-3.9 3.1,-7 7,-7h60c1.7,0 3,-1.3 3,-3c0,-1.7 -1.3,-3 -3,-3zM115,7.5c1.5,0 3.09922,0.60078 4.19922,1.80078c2.4,2.3 2.40156,6.09844 0.10156,8.39844l-37.30078,37.30078c-7.1,7.1 -15.7,12.7 -25,16.5c3.7,-9.3 9.4,-17.80039 16.5,-24.90039l37.30078,-37.29883c1.2,-1.2 2.69922,-1.80078 4.19922,-1.80078z"></path></g></g></svg>
+                                </a>
                             </li>
-                           
+
 
                         }
                         else

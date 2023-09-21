@@ -12,16 +12,8 @@ namespace enfoco2.Data
 
 		}
 		public DbSet<Notice> Notices => Set<Notice>();
+        public DbSet<Newsletter> Newsletter => Set<Newsletter>();
 
-        public class FiscaliaEticaDb : DbContext
-        {
-            public FiscaliaEticaDb(DbContextOptions<FiscaliaEticaDb> options) : base(options)
-            {
-            }
-
-            public DbSet<Fiscalia> Fiscalias { get; set; }
-            public DbSet<Etica> Eticas { get; set; }
-        }
 
     }
 }

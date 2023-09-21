@@ -32,12 +32,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Etica.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FdGljYS5jc2h0bWw=
+[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Editorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FZGl0b3JpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Fiscalia.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9GaXNjYWxpYS5jc2h0bWw=
+[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Entrevistas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FbnRyZXZpc3Rhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Index.cshtml]
