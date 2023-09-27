@@ -28,14 +28,28 @@
             <label for="Issue">Tema:</label>
             <input type="text" class="form-control rounded-2" id="Issue" name="Issue" required>
         </div>
+
+
+        @*contenido*@
+
         <div class="form-group mt-3 mb-3">
             <label for="Text">Contenido:</label>
-            <textarea class="form-control rounded-2" id="Text" name="Text" rows="4" required></textarea>
+            <textarea class="form-control rounded-2" id="TextEditor" name="Text" rows="4" required></textarea>
+            <script>
+                CKEDITOR.replace('Text');
+            </script>
         </div>
+
+
         <div class="form-group mt-3 mb-3">
-            <label for="Img">URL de la Imagen:</label>
+            <label for="Img">Imagen:</label>
             <input type="text" class="form-control rounded-2" id="Img" name="Img">
         </div>
+
+        @*<div class="form-group mt-3 mb-3">
+            <label for="Img">Imagen:</label>
+            <input type="file" class="form-control rounded-2" id="Img" name="Img">
+        </div>*@
         <div class="form-group mt-3 mb-3">
             <label for="Category">Categoría:</label>
             <select class="form-control rounded-2" id="Category" name="Category" required>

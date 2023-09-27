@@ -6,6 +6,11 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace enfoco2.Controllers
 {
@@ -166,18 +171,37 @@ namespace enfoco2.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Create(Notice notice)
+        public async Task<IActionResult> Create([FromBody] Notice notice)
         {
             if (ModelState.IsValid)
             {
-                notice.IsFeatured = Request.Form["IsFeatured"] == "on";
+                // Procesa la imagen cargada
+                var img = await UploadFileAsync(request.Form.Files["Img"]);
+                notice.Img = img;
 
-                await _noticeService.AddNoticeAsync(notice);
+                await _noticeService.CreateNoticeAsync(notice);
+
                 return RedirectToAction("Index");
             }
 
             return View(notice);
         }
+
+        private async Task<byte[]> UploadFileAsync(IFormFile file)
+        {
+            if (file.Length > 0)
+            {
+                // Guarda la imagen en la carpeta `/wwwroot/img/uploads`
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "uploads", file.FileName);
+                await file.CopyToAsync(path);
+
+                // Devuelve la imagen como un array de bytes
+                return File.ReadAllBytes(path);
+            }
+
+            return null;
+        }
+
 
 
 

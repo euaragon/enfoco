@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/enfoco2.styles.css" asp-append-version="true" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+
 </head>
 <body>
     <header class="z-3">
@@ -26,10 +28,10 @@
                     <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap align-items-center col">
                        
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Editorial">Editorial</a>
+                            <a class="nav-link text-dark fs-6" asp-area="" asp-controller="Home" asp-action="Editorial">EDITORIAL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Entrevistas">Entrevistas</a>
+                            <a class="nav-link text-dark fs-6" asp-area="" asp-controller="Home" asp-action="Entrevistas">ENTREVISTAS</a>
                         </li>
 
                         @if (User.Identity.IsAuthenticated)
@@ -102,7 +104,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script>document.querySelector('#createForm').addEventListener('submit', function (e) {
+    <script>
+
+        
+
+        document.querySelector('#createForm').addEventListener('submit', function (e) {
             e.preventDefault(); // Prevenir el envío automático del formulario
 
             // Mostrar una ventana de confirmación con SweetAlert
@@ -120,7 +126,9 @@
                     this.submit();
                 }
             });
-        });</script>
+        });
+
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 

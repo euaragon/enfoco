@@ -3,7 +3,7 @@ using enfoco2.Models;
 using enfoco2.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.Extensions.Options;
+
 
 
 var builder = WebApplication.CreateBuilder(args);

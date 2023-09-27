@@ -24,7 +24,7 @@
                     <img class="img-fluid  w-100 rounded-2" src="@notice.Img" alt="noticia">
                 </div>
                 <div class="title-notice w-75 rounded-2 @(GetCategoryTitleCssClass(notice.Category))">
-                    <h5 class="text-naranja">@notice.Issue</h5>
+                    <h5 class="text-naranja">@notice.Issue.ToUpper()</h5>
                     <h2 class="editorial">@notice.Title</h2>
                 </div>
             </article>

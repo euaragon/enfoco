@@ -14,13 +14,13 @@
 <div class="container-fluid pt-5">
 
 
-    <h5 class="text-naranja notice-detail-issue">@notice.Issue</h5>
+    <h5 class="text-naranja notice-detail-issue">@notice.Issue.ToUpper()</h5>
     <h2 class="notice-detail-title">@notice.Title</h2>
     <h3 class="notice-detail-subtitle">@notice.Subtitle</h3>
 
     <img class="img-fluid img-thumbnail w-100 rounded-5" src="@notice.Img" alt="noticia">
 
-    <div class="content-notice mt-4">
+    <div class="content-notice">
         <p class="notice-detail-text">@Html.Raw(notice.Text)</p>
     </div>
 
