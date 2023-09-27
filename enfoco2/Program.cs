@@ -3,6 +3,7 @@ using enfoco2.Models;
 using enfoco2.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.Extensions.Options;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,8 +17,12 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 var connectionString = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 
+builder.Services.AddDbContext<EnfocoDb>(options =>
+{
+    options.UseNpgsql(connectionString);
+});
 
-builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionString));
+//builder.Services.AddDbContext<EnfocoDb>(options => options.UseNpgsql(connectionString));
 
 // Registrar el servicio NoticeService
 builder.Services.AddScoped<NoticeService>(); // Agrega esta línea
@@ -28,15 +33,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     options.LoginPath = "/Home/Login"; // Ruta para el inicio de sesión
     options.LogoutPath = "/Home/Logout"; // Ruta para el cierre de sesión
 });
+
 //script para crear la base de datos
 // 1- instalar la dependencia ef
 //    dotnet tool install --global dotnet-ef
 
 // 2- crear el first migration
-//       dotnet ef migrations add firstmigration
+//       dotnet ef migrations add FirstMigration
 
 // 3- correr el script que crea la base de datos
-// dotnet ef database update firstmigration --project enfoco2.csproj
+// dotnet ef database update FirstMigration --project enfoco2.csproj
 
 var app = builder.Build();
 
@@ -54,6 +60,7 @@ app.MapPost("/noticias/", async (Notice n, EnfocoDb db) =>
 
     return Results.Created($"/noticias/{n.Id}", n);
 });
+
 
 app.MapGet("noticias/Detail/{id:int}", async (int id, EnfocoDb db) =>
 {
@@ -76,6 +83,9 @@ app.MapPut("/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
     notice.Issue = n.Issue;
     notice.Text = n.Text;
     notice.Img = n.Img;
+    notice.IsFeatured = n.IsFeatured;
+    notice.Category = n.Category;
+    notice.Section = n.Section;
 
     await db.SaveChangesAsync();
 

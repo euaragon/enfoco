@@ -1,0 +1,44 @@
+﻿@model List<enfoco2.Models.Notice>
+
+@{
+    ViewData["Title"] = "Entrevistas - ENFOCO";
+}
+
+<h1 class="p-5">Nuestras Entrevistas</h1>
+
+<div class="notice-container p-3">
+    
+    @foreach (var notice in Model)
+    {
+        <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
+            <article class= "notice">
+                <div class="img-notice-container rounded-2">
+                    <img class="img-fluid w-100 rounded-2" src="@notice.Img" alt="noticia">
+                </div>
+                <div class="title-notice w-75 rounded-2 @(GetCategoryTitleCssClass(notice.Category))">
+                    <h5 class="text-naranja">@notice.Issue</h5>
+                    <h2 class="editorial">@notice.Title</h2>
+                </div>
+            </article>
+        </a>
+    }
+</div>
+
+@functions
+{
+
+    string GetCategoryTitleCssClass(NoticeCategory category)
+    {
+        switch (category)
+        {
+            case NoticeCategory.tribunal:
+                return "title-notice-tribunal";
+            case NoticeCategory.fiscalia:
+                return "title-notice-fiscalia";
+            case NoticeCategory.etica:
+                return "title-notice-etica";
+            default:
+                return "title-notice";
+        }
+    }
+}
