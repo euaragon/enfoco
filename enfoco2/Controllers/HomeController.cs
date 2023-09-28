@@ -139,6 +139,10 @@ namespace enfoco2.Controllers
             return View(noticeDto);
         }
 
+       
+
+
+
 
         [HttpGet]
         public IActionResult Search(string searchTerm, int page = 1, int pageSize = 4)
@@ -171,35 +175,33 @@ namespace enfoco2.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] Notice notice)
+        public async Task<IActionResult> Create(Notice notice, IFormFile Img)
         {
             if (ModelState.IsValid)
             {
-                // Procesa la imagen cargada
-                var img = await UploadFileAsync(request.Form.Files["Img"]);
-                notice.Img = img;
+                // Procesar el archivo de imagen si se proporciona
+                if (Img != null && Img.Length > 0)
+                {
+                    // Genera un nombre de archivo único para la imagen
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Img.FileName;
+                    var filePath = Path.Combine("wwwroot/img/uploads", uniqueFileName);
 
-                await _noticeService.CreateNoticeAsync(notice);
+                    // Guarda el archivo en el servidor
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await Img.CopyToAsync(stream);
+                    }
 
+                    // Asigna el nombre de archivo único a la propiedad Img de la noticia
+                    notice.Img = uniqueFileName;
+                }
+
+                // Guarda la noticia en la base de datos
+                await _noticeService.AddNoticeAsync(notice);
                 return RedirectToAction("Index");
             }
 
             return View(notice);
-        }
-
-        private async Task<byte[]> UploadFileAsync(IFormFile file)
-        {
-            if (file.Length > 0)
-            {
-                // Guarda la imagen en la carpeta `/wwwroot/img/uploads`
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "uploads", file.FileName);
-                await file.CopyToAsync(path);
-
-                // Devuelve la imagen como un array de bytes
-                return File.ReadAllBytes(path);
-            }
-
-            return null;
         }
 
 

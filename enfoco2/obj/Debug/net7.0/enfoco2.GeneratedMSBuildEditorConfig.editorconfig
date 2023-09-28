@@ -17,53 +17,53 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = enfoco2
 build_property.RootNamespace = enfoco2
-build_property.ProjectDir = C:\Users\earagon.TRIBUNAL\Desktop\enfoco2\enfoco2\
+build_property.ProjectDir = c:\Users\earagon.TRIBUNAL\Desktop\enfoco2\enfoco2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\earagon.TRIBUNAL\Desktop\enfoco2\enfoco2
+build_property.MSBuildProjectDirectory = c:\Users\earagon.TRIBUNAL\Desktop\enfoco2\enfoco2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Create.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Detail.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Editorial.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Editorial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0b3JpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Entrevistas.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Entrevistas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbnRyZXZpc3Rhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Index.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Login.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/Error.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/_ViewImports.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/_ViewStart.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/_Layout.cshtml]
+[c:/Users/earagon.TRIBUNAL/Desktop/enfoco2/enfoco2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-csbqj74nbu

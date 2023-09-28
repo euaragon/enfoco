@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vy7ZAjmV6xga3Imihm7HI0MXCUiQxSne7HKWFmh9Gac=",
+  "Hash": "0WUPtFloNJ/GhZ8qtpMxEW+F+XnsQYffnSUax5VO2Os=",
   "Source": "enfoco2",
   "BasePath": "_content/enfoco2",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\BANNER.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\BANNER2.jpg",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/BANNER2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\BANNER2.jpg"
     },
     {
       "Identity": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco2\\enfoco2\\wwwroot\\img\\etica.png",

@@ -7,11 +7,19 @@
 @inject enfoco2.Services.NoticeService NoticeService
 @{
     var notice = await NoticeService.GetNoticeByIdAsync(Model.Id);
+
+    // Obtiene las últimas 5 noticias ordenadas por ID descendente.
+    var last5Notices = NoticeService.GetNotice()
+        .OrderByDescending(notice => notice.Id)
+        .Take(10)
+        .Where(notice => notice.Id != Model.Id)
+        .ToList();
 }
 
 
 
-<div class="container-fluid pt-5">
+<div class="row">
+    <div class="col-md-8 container-fluid pt-5">
 
 
     <h5 class="text-naranja notice-detail-issue">@notice.Issue.ToUpper()</h5>
@@ -20,9 +28,24 @@
 
     <img class="img-fluid img-thumbnail w-100 rounded-5" src="@notice.Img" alt="noticia">
 
-    <div class="content-notice">
+    <div class="content-notice mt-3">
         <p class="notice-detail-text">@Html.Raw(notice.Text)</p>
     </div>
 
-    <a href="javascript:history.back()" class="btn volver"><img style="position: relative; top:-1px;" width="24" height="24" src="https://img.icons8.com/material/24/000000/back--v1.png" alt="back--v1" />VOLVER</a>
+        <a href="@Url.Action("Index", "Home")" class="btn volver"><img style="position: relative; top:-1px;" width="24" height="24" src="https://img.icons8.com/material/24/000000/back--v1.png" alt="back--v1" />VOLVER</a>
+
+    </div>
+
+    <div class="col-md-3 offset-md-0 mt-5">
+        <h5>También te puede interesar...</h5>
+
+    @foreach (var last5Notice in last5Notices)
+    {
+                <a href="@Url.Action("Detail", "Home", new { id = last5Notice.Id })" class="list-group-item list-group-item-action">
+                
+                <span class="list-group-item-text">@last5Notice.Issue</span>
+                <p class="list-group-item-heading fw-bold">@last5Notice.Title</p>
+                </a>
+    }
+    </div>
 </div>
