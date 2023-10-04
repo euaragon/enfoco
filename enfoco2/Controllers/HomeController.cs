@@ -175,28 +175,11 @@ namespace enfoco2.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> Create(Notice notice, IFormFile Img)
+        public async Task<IActionResult> Create(Notice notice)
         {
             if (ModelState.IsValid)
             {
-                // Procesar el archivo de imagen si se proporciona
-                if (Img != null && Img.Length > 0)
-                {
-                    // Genera un nombre de archivo único para la imagen
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Img.FileName;
-                    var filePath = Path.Combine("wwwroot/img/uploads", uniqueFileName);
 
-                    // Guarda el archivo en el servidor
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await Img.CopyToAsync(stream);
-                    }
-
-                    // Asigna el nombre de archivo único a la propiedad Img de la noticia
-                    notice.Img = uniqueFileName;
-                }
-
-                // Guarda la noticia en la base de datos
                 await _noticeService.AddNoticeAsync(notice);
                 return RedirectToAction("Index");
             }
