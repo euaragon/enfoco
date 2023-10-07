@@ -7,6 +7,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
+
 namespace enfoco2.Controllers
 {
     public class HomeController : Controller
@@ -22,7 +23,7 @@ namespace enfoco2.Controllers
         }
 
 
-        public IActionResult Index(int page = 1, int pageSize = 4)
+        public IActionResult Index(int page = 1, int pageSize = 6)
         {
             var allNotices = _noticeService.GetNotice().OrderByDescending(notice => notice.Id);
 
@@ -47,7 +48,7 @@ namespace enfoco2.Controllers
 
         public IActionResult Editorial()
         {
-            var editorialNotices = _noticeService.GetNotice()
+            var editorialNotices = _noticeService.GetNotice().OrderByDescending(notice => notice.Id)
                 .Where(notice => notice.Section == NoticeSection.category1)
                 .ToList();
 
@@ -55,14 +56,24 @@ namespace enfoco2.Controllers
         }
 
 
-        public IActionResult Entrevistas()
+        public IActionResult Noticias()
         {
-            var entrevistasNotices = _noticeService.GetNotice()
+            var noticiasNotices = _noticeService.GetNotice().OrderByDescending(notice => notice.Id)
                 .Where(notice => notice.Section == NoticeSection.category2)
                 .ToList();
 
-            return View(entrevistasNotices);
+            return View(noticiasNotices);
         }
+
+        public IActionResult Analisis()
+        {
+            var analisisNotices = _noticeService.GetNotice().OrderByDescending(notice => notice.Id)
+                .Where(notice => notice.Section == NoticeSection.category3)
+                .ToList();
+
+            return View(analisisNotices);
+        }
+
 
         [Authorize]
         [HttpGet]
@@ -110,6 +121,7 @@ namespace enfoco2.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Detail(int id)
         {
+
             var notice = await _noticeService.GetNoticeByIdAsync(id);
 
             if (notice == null)
@@ -133,6 +145,10 @@ namespace enfoco2.Controllers
 
             return View(noticeDto);
         }
+
+       
+
+
 
 
         [HttpGet]
@@ -170,14 +186,12 @@ namespace enfoco2.Controllers
         {
             if (ModelState.IsValid)
             {
-                notice.IsFeatured = Request.Form["IsFeatured"] == "on";
-
                 await _noticeService.AddNoticeAsync(notice);
-                return RedirectToAction("Index");
+                return RedirectToAction("Index"); 
             }
-
             return View(notice);
         }
+
 
 
 
@@ -195,6 +209,9 @@ namespace enfoco2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
+
     }
 }
 

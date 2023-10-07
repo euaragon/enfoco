@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RUIUwNnzAcry2yetMm6S4Nd9IiHSZLX02m8QVO4W+co=",
+  "Hash": "WF1eFGl1OUrPExWXYPHmy0gbqvAHp1k4rKg3ay/lDJI=",
   "Source": "enfoco2",
   "BasePath": "_content/enfoco2",
   "Mode": "Default",
@@ -372,6 +372,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/fonts/NeueMontreal-Regular.otf"
+    },
+    {
+      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/BANNER.jpg",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/BANNER.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/BANNER.jpg"
+    },
+    {
+      "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/BANNER2.jpg",
+      "SourceId": "enfoco2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/",
+      "BasePath": "_content/enfoco2",
+      "RelativePath": "img/BANNER2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/BANNER2.jpg"
     },
     {
       "Identity": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/etica.png",

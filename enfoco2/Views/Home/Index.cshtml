@@ -4,6 +4,11 @@
     ViewData["Title"] = "Revista ENFOCO";
 }
 
+<div class="container-fluid w-100 m-0 p-0 z-n1">
+    <img width="100%" src="~/img/BANNER2.jpg" alt="La Revista Digital de los Organismos de Control Externo de Mendoza" />
+</div>
+
+
 @if (Model.Data.Count == 0)
 {
 
@@ -15,7 +20,8 @@
 
 
 
-<div class="text-center notice-container p-5">
+<div class="text-center notice-container pt-5">
+
     @foreach (var notice in Model.Data)
     {
         <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">
@@ -24,7 +30,7 @@
                     <img class="img-fluid  w-100 rounded-2" src="@notice.Img" alt="noticia">
                 </div>
                 <div class="title-notice w-75 rounded-2 @(GetCategoryTitleCssClass(notice.Category))">
-                    <h5 class="text-naranja">@notice.Issue</h5>
+                    <h5 class="text-naranja">@notice.Issue.ToUpper()</h5>
                     <h2 class="editorial">@notice.Title</h2>
                 </div>
             </article>

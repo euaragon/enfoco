@@ -3,7 +3,7 @@ using enfoco2.Models;
 using enfoco2.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.Extensions.Options;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,7 +32,10 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 {
     options.LoginPath = "/Home/Login"; // Ruta para el inicio de sesión
     options.LogoutPath = "/Home/Logout"; // Ruta para el cierre de sesión
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Establece el tiempo de expiración a 30 minutos o el valor que desees.
 });
+
+
 
 //script para crear la base de datos
 // 1- instalar la dependencia ef
@@ -53,25 +56,25 @@ app.UseHttpsRedirection();
 
 
 //vamos a crear la api web
-app.MapPost("/noticias/", async (Notice n, EnfocoDb db) =>
+app.MapPost("noticias/", async (Notice n, EnfocoDb db) =>
 {
     db.Notices.Add(n);
     await db.SaveChangesAsync();
 
-    return Results.Created($"/noticias/{n.Id}", n);
+    return Results.Created($"noticias/{n.Id}", n);
 });
 
 
-app.MapGet("noticias/Detail/{id:int}", async (int id, EnfocoDb db) =>
+app.MapGet("noticias/{id:int}", async (int id, EnfocoDb db) =>
 {
     return await db.Notices.FindAsync(id)
     is Notice n ? Results.Ok(n) : Results.NotFound();
 });
 
-app.MapGet("/noticias/", async (EnfocoDb db) => await db.Notices.ToListAsync());
+app.MapGet("noticias/", async (EnfocoDb db) => await db.Notices.ToListAsync());
 
 
-app.MapPut("/noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
+app.MapPut("noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
     if (n.Id != id) return Results.BadRequest();
 
     var notice = await db.Notices.FindAsync(id);

@@ -7,22 +7,54 @@
 @inject enfoco2.Services.NoticeService NoticeService
 @{
     var notice = await NoticeService.GetNoticeByIdAsync(Model.Id);
+
+    var last5Notices = NoticeService.GetNotice()
+        .OrderByDescending(notice => notice.Id)
+        .Take(10)
+        .Where(notice => notice.Id != Model.Id)
+        .ToList();
 }
 
 
 
-<div class="notice-detail-container container-xl p-5">
+<div class="row">
+    <div class="col-md-8 container-fluid pt-5">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="#" class="btn btn-warning btn-sm mb-3 btn-edit">Editar</a>
+                <button type="submit" class="btn btn-danger btn-sm mb-3 btn-delete">Eliminar</button>
+            </div>
+        }
 
 
-    <h5 class="text-naranja notice-detail-issue">@notice.Issue</h5>
-    <h2 class="notice-detail-title">@notice.Title</h2>
-    <h3 class="notice-detail-subtitle">@notice.Subtitle</h3>
+        <h5 class="text-naranja notice-detail-issue">@notice.Issue.ToUpper()</h5>
+        <h2 class="notice-detail-title">@notice.Title</h2>
+        <h3 class="notice-detail-subtitle">@notice.Subtitle</h3>
 
-    <img class="img-fluid img-thumbnail w-100 rounded-5" src="@notice.Img" alt="noticia">
+        <img class="img-fluid img-thumbnail w-100 rounded-5" src="@notice.Img" alt="noticia">
 
-    <div class="content-notice mt-4">
-        <p class="notice-detail-text">@Html.Raw(notice.Text)</p>
+        <div class="content-notice mt-3">
+            <p class="notice-detail-text">@Html.Raw(notice.Text)</p>
+        </div>
+
+        <a href="@Url.Action("Index", "Home")" class="btn volver"><img style="position: relative; top:-1px;" width="24" height="24" src="https://img.icons8.com/material/24/000000/back--v1.png" alt="back--v1" />VOLVER</a>
+
     </div>
 
-    <a href="javascript:history.back()" class="btn volver"><img style="position: relative; top:-1px;" width="24" height="24" src="https://img.icons8.com/material/24/000000/back--v1.png" alt="back--v1" />VOLVER</a>
+
+
+
+    <div class="col-md-3 offset-md-0 mt-5">
+        <h5>También te puede interesar...</h5>
+
+    @foreach (var last5Notice in last5Notices)
+    {
+                <a href="@Url.Action("Detail", "Home", new { id = last5Notice.Id })" class="list-group-item list-group-item-action">
+                
+                <span class="list-group-item-text text-naranja">@last5Notice.Issue</span>
+                <p class="list-group-item-heading fw-bold">@last5Notice.Title</p>
+                </a>
+    }
+    </div>
 </div>

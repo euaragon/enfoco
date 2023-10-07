@@ -12,7 +12,7 @@ using enfoco2.Data;
 namespace enfoco2.Migrations
 {
     [DbContext(typeof(EnfocoDb))]
-    [Migration("20230918220403_FirstMigration")]
+    [Migration("20230927105757_FirstMigration")]
     partial class FirstMigration
     {
         /// <inheritdoc />

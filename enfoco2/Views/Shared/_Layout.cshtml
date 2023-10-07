@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/enfoco2.styles.css" asp-append-version="true" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+
 </head>
 <body>
-    <header>
+    <header class="z-3">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom shadow-sm p-3 align-items-center">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img class="w-75" src="~/img/logo.png" /></a>
@@ -24,22 +26,15 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex">
                     <ul class="navbar-nav flex-grow-1 justify-content-end nav-gap align-items-center col">
-                        @*<li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TRIBUNAL DE CUENTAS</a>
-        </li>
-
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Fiscalia">FISCALÍA DE ESTADO</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Etica">ÉTICA PÚBLICA</a>
-        </li>*@
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Editorial">Editorial</a>
+                            <a class="nav-link text-dark fs-6" asp-area="" asp-controller="Home" asp-action="Editorial">EDITORIAL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Entrevistas">Entrevistas</a>
+                            <a class="nav-link text-dark fs-6" asp-area="" asp-controller="Home" asp-action="Noticias">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-6" asp-area="" asp-controller="Home" asp-action="Analisis">ANÁLISIS</a>
                         </li>
 
                         @if (User.Identity.IsAuthenticated)
@@ -78,8 +73,8 @@
         </nav>
     </header>
    
-    <div class="container-xl pb-5">
-        <main role="main" class="pb-3 mb-5 container-xl">
+    <div class="container-fluid p-0 pb-5">
+        <main role="main" class="pb-3 mb-5 p-0 container-fluid">
             @RenderBody()
         </main>
     </div>
@@ -110,25 +105,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script>document.querySelector('#createForm').addEventListener('submit', function (e) {
-            e.preventDefault(); // Prevenir el envío automático del formulario
 
-            // Mostrar una ventana de confirmación con SweetAlert
-            Swal.fire({
-                title: '¿Estás seguro?',
-                text: '¿Quieres guardar esta noticia?',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonColor: '#3085d6',
-                cancelButtonColor: '#d33',
-                confirmButtonText: 'Guardar'
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    // Si el usuario confirma, enviar el formulario
-                    this.submit();
-                }
-            });
-        });</script>
 
     @await RenderSectionAsync("Scripts", required: false)
 

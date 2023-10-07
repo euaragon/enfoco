@@ -1,11 +1,11 @@
 ﻿@model List<enfoco2.Models.Notice>
 
 @{
-    ViewData["Title"] = "Editorial - ENFOCO";
+    ViewData["Title"] = "Análisis - ENFOCO";
 }
 
 <div class="notice-container pt-5">
-    
+
     @foreach (var notice in Model)
     {
         <a href="@Url.Action("Detail", "Home", new { id = notice.Id })" class="notice-link">

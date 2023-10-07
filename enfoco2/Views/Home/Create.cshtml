@@ -1,5 +1,9 @@
 ﻿@model enfoco2.Models.Notice
 
+@{
+    ViewData["Title"] = "Crear Noticia";
+}
+
 <div class="p-5">
     <h3 class="mb-4">Crear Noticia</h3>
 
@@ -7,11 +11,11 @@
 
 
         <div class="form-group mt-3 mb-3">
-            <div class="form-check">
-                <input type="hidden" name="IsFeatured" value="false">
+            @*<div class="form-check">
+                <input type="hidden" name="IsFeatured" value="true">
                 <input type="checkbox" class="form-check-input" id="IsFeatured" name="IsFeatured" checked>
                 <label class="form-check-label" for="IsFeatured">Destacada</label>
-            </div>
+            </div>*@
 
             <label for="Title">Título:</label>
             <input type="text" class="form-control rounded-2" id="Title" name="Title" required>
@@ -24,14 +28,32 @@
             <label for="Issue">Tema:</label>
             <input type="text" class="form-control rounded-2" id="Issue" name="Issue" required>
         </div>
+
+
+        @*contenido
+
+
+
+            *@
+
         <div class="form-group mt-3 mb-3">
             <label for="Text">Contenido:</label>
             <textarea class="form-control rounded-2" id="Text" name="Text" rows="4" required></textarea>
+            <script>
+                CKEDITOR.replace('Text');
+            </script>
         </div>
+
+
         <div class="form-group mt-3 mb-3">
-            <label for="Img">URL de la Imagen:</label>
+            <label for="Img">Imagen:</label>
             <input type="text" class="form-control rounded-2" id="Img" name="Img">
         </div>
+
+        @*<div class="form-group mt-3 mb-3">
+            <label for="Img">Imagen:</label>
+            <input type="file" class="form-control rounded-2" id="Img" name="Img">
+        </div>*@
         <div class="form-group mt-3 mb-3">
             <label for="Category">Categoría:</label>
             <select class="form-control rounded-2" id="Category" name="Category" required>
@@ -44,7 +66,8 @@
             <label for="Section">Sección:</label>
             <select class="form-control rounded-2" id="Section" name="Section" required>
                 <option value="category1">Editorial</option>
-                <option value="category2">Entrevistas</option>
+                <option value="category2">Noticias</option>
+                <option value="category3">Análisis</option>
             </select>
         </div>
         <button type="submit" class="btn naranja mt-3 mb-3 rounded-2">Guardar</button>

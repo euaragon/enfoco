@@ -16,7 +16,8 @@ namespace enfoco2.Models
     public enum NoticeSection
     {
         category1,
-        category2
+        category2,
+        category3
     }
 
     public class Notice
