@@ -95,7 +95,7 @@ app.MapPut("noticias/{id:int}", async (int id, Notice n, EnfocoDb db) => {
     return Results.Ok(notice);
 });
 
-app.MapDelete("/noticias/{id:int}", async (int id, EnfocoDb db) => {
+app.MapDelete("/{id:int}", async (int id, EnfocoDb db) => {
 
 
     var notice = await db.Notices.FindAsync(id);

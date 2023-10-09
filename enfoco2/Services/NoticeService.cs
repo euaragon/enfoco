@@ -48,7 +48,15 @@ namespace enfoco2.Services
             return searchResults;
         }
 
-      
+        public async Task DeleteNoticeAsync(int id)
+        {
+            var notice = await _context.Notices.FindAsync(id);
+            if (notice != null)
+            {
+                _context.Notices.Remove(notice);
+                await _context.SaveChangesAsync();
+            }
+        }
 
 
     }

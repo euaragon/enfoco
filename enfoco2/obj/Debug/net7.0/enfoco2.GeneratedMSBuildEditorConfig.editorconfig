@@ -17,57 +17,57 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = enfoco2
 build_property.RootNamespace = enfoco2
-build_property.ProjectDir = /Users/eugenioaragon/Projects/enfoco2/enfoco2/
+build_property.ProjectDir = C:\Users\earagon.TRIBUNAL\Desktop\enfoco\enfoco2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = /Users/eugenioaragon/Projects/enfoco2/enfoco2
+build_property.MSBuildProjectDirectory = C:\Users\earagon.TRIBUNAL\Desktop\enfoco\enfoco2
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Analisis.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BbmFsaXNpcy5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Analisis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmFsaXNpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGUuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWwuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Editorial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FZGl0b3JpYWwuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Editorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0b3JpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Home/Noticias.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ob3RpY2lhcy5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Home/Noticias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RpY2lhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/eugenioaragon/Projects/enfoco2/enfoco2/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-jtxhspr97w
+[C:/Users/earagon.TRIBUNAL/Desktop/enfoco/enfoco2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-csbqj74nbu

@@ -22,8 +22,32 @@
         @if (User.Identity.IsAuthenticated)
         {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <a href="#" class="btn btn-warning btn-sm mb-3 btn-edit">Editar</a>
-                <button type="submit" class="btn btn-danger btn-sm mb-3 btn-delete">Eliminar</button>
+                @*<a href="#" class="btn btn-warning btn-sm mb-3 btn-edit">Editar</a>*@
+                <a href="@Url.Action("Delete", "Home", new { id = Model.Id })" class="text-white btn btn-danger btn-sm mb-3" onclick="return showDeleteConfirmation()">Eliminar</a>
+                
+<script>
+    function showDeleteConfirmation() {
+        Swal.fire({
+            title: '¿Estás seguro de que deseas eliminar esta noticia?',
+            text: 'Esta acción no se puede deshacer',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Sí, eliminar',
+            cancelButtonText: 'Cancelar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Si el usuario hace clic en "Sí, eliminar", redirige a la acción de eliminación.
+                window.location.href = "@Url.Action("Delete", "Home", new { id = Model.Id })";
+            }
+        });
+
+        // Devuelve false para evitar que se siga la navegación estándar del enlace.
+        return false;
+    }
+</script>
+
             </div>
         }
 

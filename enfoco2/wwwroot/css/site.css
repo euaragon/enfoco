@@ -12,6 +12,10 @@ html {
   font-size: 14px;
 }
 
+center{
+    display: none;
+}
+
 body {
   background-color: #f3f4ed;
   color: #424642 !important;

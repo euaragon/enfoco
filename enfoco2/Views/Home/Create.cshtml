@@ -30,11 +30,7 @@
         </div>
 
 
-        @*contenido
 
-
-
-            *@
 
         <div class="form-group mt-3 mb-3">
             <label for="Text">Contenido:</label>
@@ -71,6 +67,28 @@
             </select>
         </div>
         <button type="submit" class="btn naranja mt-3 mb-3 rounded-2">Guardar</button>
+
+        <script>
+            document.querySelector('#createForm').addEventListener('submit', function (e) {
+                e.preventDefault(); // Prevenir el envío automático del formulario
+
+                // Mostrar una ventana de confirmación con SweetAlert
+                Swal.fire({
+                    title: '¿Estás seguro?',
+                    text: '¿Quieres guardar esta noticia?',
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Guardar'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        // Si el usuario confirma, enviar el formulario
+                        this.submit();
+                    }
+                });
+            });
+        </script>
     </form>
 
 </div>

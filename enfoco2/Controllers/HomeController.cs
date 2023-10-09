@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace enfoco2.Controllers
@@ -15,6 +16,7 @@ namespace enfoco2.Controllers
         private readonly ILogger<HomeController> _logger;
 
         private readonly NoticeService _noticeService;
+        private object _context;
 
         public HomeController(ILogger<HomeController> logger, NoticeService noticeService)
         {
@@ -210,7 +212,20 @@ namespace enfoco2.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        
+        public async Task<IActionResult> Delete(int id)
+        {
+            var notice = await _noticeService.GetNoticeByIdAsync(id);
+            if (notice == null)
+            {
+                return NotFound();
+            }
+
+            await _noticeService.DeleteNoticeAsync(id);
+
+            return RedirectToAction("Index");
+        }
+
+
 
     }
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/enfoco2.styles.css" asp-append-version="true" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.10/dist/sweetalert2.all.min.js"></script>
     <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 
 </head>
@@ -64,7 +64,7 @@
                     </ul>
                     <form class="d-flex" asp-controller="Home" asp-action="Search" role="search" method="get">
                         <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search" name="searchTerm">
-                        <button class="btn rounded-2" type="submit"><img class="w-50" src="https://img.icons8.com/424642/search"></button>
+                        <button class="btn rounded-2" type="submit"><img class="w-100" src="~/img/lupa.png" alt="buscar"></button>
                     </form>
 
 
@@ -104,8 +104,23 @@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        const tiempoRecargaSegundos = 600; // 10 minutos (cambia este valor según tus necesidades)
 
+        setTimeout(function () {
+            // Recargar la página después de que el tiempo de expiración se agote
+            location.reload();
+        }, tiempoRecargaSegundos * 1000);
+
+        document.querySelector(".btn-edit").addEventListener("click", function () {
+            document.querySelector(".form-edit").classList.remove("d-none");
+        });
+
+        
+
+     
+
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 

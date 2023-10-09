@@ -4,6 +4,17 @@
     ViewData["Title"] = "Noticias - ENFOCO";
 }
 
+<div class="container-fluid w-100 m-0 p-0 z-n1">
+    <img width="100%" src="~/img/noticias.jpg" alt="Noticias" />
+</div>
+
+@if (Model.Count == 0)
+{
+    <p class="mt-5 notice-container pt-5">No hay artículos disponibles.</p>
+}
+
+
+
 <div class="notice-container pt-5">
 
     @foreach (var notice in Model)

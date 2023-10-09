@@ -1,359 +1,367 @@
 {
   "Files": [
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/obj/Debug/net7.0/scopedcss/projectbundle/enfoco2.bundle.scp.css",
-      "PackagePath": "staticwebassets/enfoco2.bundle.scp.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\enfoco2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\enfoco2.bundle.scp.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Bold.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Bold.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Bold.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Heavy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Heavy.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Heavy.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Heavy.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Light.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Light.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Light.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Medium.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Medium.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Medium.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Regular.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Regular.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Regular.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Thin.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Thin.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Thin.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Ultrabold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Ultrabold.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Ultrabold.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Ultrabold.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\EditorialNew-Ultralight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\EditorialNew-Ultralight.ttf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/EditorialNew-Ultralight.ttf",
-      "PackagePath": "staticwebassets/fonts/EditorialNew-Ultralight.ttf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Bold.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Bold.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-Bold.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-BoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-BoldItalic.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-BoldItalic.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-BoldItalic.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Italic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Italic.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Italic.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-Italic.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Light.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Light.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-Light.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-LightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-LightItalic.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-LightItalic.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-LightItalic.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Medium.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Medium.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-Medium.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-MediumItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-MediumItalic.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-MediumItalic.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-MediumItalic.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\fonts\\NeueMontreal-Regular.otf",
+      "PackagePath": "staticwebassets\\fonts\\NeueMontreal-Regular.otf"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/fonts/NeueMontreal-Regular.otf",
-      "PackagePath": "staticwebassets/fonts/NeueMontreal-Regular.otf"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\BANNER.jpg",
+      "PackagePath": "staticwebassets\\img\\BANNER.jpg"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/BANNER.jpg",
-      "PackagePath": "staticwebassets/img/BANNER.jpg"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\BANNER2.jpg",
+      "PackagePath": "staticwebassets\\img\\BANNER2.jpg"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/BANNER2.jpg",
-      "PackagePath": "staticwebassets/img/BANNER2.jpg"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\analisis.jpg",
+      "PackagePath": "staticwebassets\\img\\analisis.jpg"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/etica.png",
-      "PackagePath": "staticwebassets/img/etica.png"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\editorial.jpg",
+      "PackagePath": "staticwebassets\\img\\editorial.jpg"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/fiscalia.png",
-      "PackagePath": "staticwebassets/img/fiscalia.png"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\etica.png",
+      "PackagePath": "staticwebassets\\img\\etica.png"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/logo.png",
-      "PackagePath": "staticwebassets/img/logo.png"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\fiscalia.png",
+      "PackagePath": "staticwebassets\\img\\fiscalia.png"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/img/tribunal.png",
-      "PackagePath": "staticwebassets/img/tribunal.png"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\lupa.png",
+      "PackagePath": "staticwebassets\\img\\lupa.png"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/.DS_Store",
-      "PackagePath": "staticwebassets/lib/.DS_Store"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\noticias.jpg",
+      "PackagePath": "staticwebassets\\img\\noticias.jpg"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/LICENSE",
-      "PackagePath": "staticwebassets/lib/bootstrap"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\img\\tribunal.png",
+      "PackagePath": "staticwebassets\\img\\tribunal.png"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/LICENSE.md",
-      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
-      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "/Users/eugenioaragon/Projects/enfoco2/enfoco2/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.enfoco2.props",
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\earagon.TRIBUNAL\\Desktop\\enfoco\\enfoco2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.enfoco2.props",
       "PackagePath": "build\\enfoco2.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.enfoco2.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.enfoco2.props",
       "PackagePath": "buildMultiTargeting\\enfoco2.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.enfoco2.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.enfoco2.props",
       "PackagePath": "buildTransitive\\enfoco2.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.enfoco2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.enfoco2.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],
