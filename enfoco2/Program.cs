@@ -42,7 +42,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 //    dotnet tool install --global dotnet-ef
 
 // 2- crear el first migration
-//       dotnet ef migrations add FirstMigration
+//       dotnet ef migrations add FirstMigration --project enfoco2.csproj
 
 // 3- correr el script que crea la base de datos
 // dotnet ef database update FirstMigration --project enfoco2.csproj
