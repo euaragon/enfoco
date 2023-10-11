@@ -7,7 +7,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-
+using enfoco2.Data;
 
 namespace enfoco2.Controllers
 {
@@ -76,7 +76,7 @@ namespace enfoco2.Controllers
             return View(analisisNotices);
         }
 
-
+       
         [Authorize]
         [HttpGet]
         public IActionResult Create()
@@ -225,6 +225,24 @@ namespace enfoco2.Controllers
             return RedirectToAction("Index");
         }
 
+
+        [HttpPost]
+        public IActionResult SubscribeNewsletter(Newsletter newsletter, [FromServices] EnfocoDb dbContext)
+        {
+            if (ModelState.IsValid)
+            {
+                dbContext.Newsletter.Add(newsletter);
+                dbContext.SaveChanges();
+                return RedirectToAction("Suscribe");
+            }
+            return View("Index", newsletter);
+        }
+
+        
+        public IActionResult Suscribe()
+        {
+            return View();
+        }
 
 
     }

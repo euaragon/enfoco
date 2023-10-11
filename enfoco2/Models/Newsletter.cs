@@ -7,11 +7,8 @@ namespace enfoco2.Models
 
         public required string Email { get; set; }
 
-        public DateTime CreatedAt { get; set; }
+        
     }
 
-    public class NewsletterDto : Newsletter
-    {
-    }
 }
 

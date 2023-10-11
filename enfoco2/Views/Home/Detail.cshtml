@@ -22,7 +22,7 @@
         @if (User.Identity.IsAuthenticated)
         {
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                @*<a href="#" class="btn btn-warning btn-sm mb-3 btn-edit">Editar</a>*@
+                @*<button class="btn btn-warning btn-sm mb-3 btn-edit" id="editBtn">Editar</button>*@
                 <a href="@Url.Action("Delete", "Home", new { id = Model.Id })" class="text-white btn btn-danger btn-sm mb-3" onclick="return showDeleteConfirmation()">Eliminar</a>
                 
 <script>
@@ -54,6 +54,13 @@
 
         <h5 class="text-naranja notice-detail-issue">@notice.Issue.ToUpper()</h5>
         <h2 class="notice-detail-title">@notice.Title</h2>
+        <form id="titleForm" class="d-none">
+            <div class="form-group">
+               
+                <input type="text" placeholder="Título" class="form-control" id="titleInput" value="@notice.Title">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="saveTitle()">Guardar</button>
+        </form>
         <h3 class="notice-detail-subtitle">@notice.Subtitle</h3>
 
         <img class="img-fluid img-thumbnail w-100 rounded-5" src="@notice.Img" alt="noticia">
@@ -82,3 +89,5 @@
     }
     </div>
 </div>
+
+
