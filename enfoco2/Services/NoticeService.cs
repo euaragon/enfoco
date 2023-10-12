@@ -18,6 +18,11 @@ namespace enfoco2.Services
             return _context.Notices.ToList();
         }
 
+        public IList<Newsletter> GetNewsletter()
+        {
+            return _context.Newsletter.ToList();
+        }
+
         public async Task<Notice?> GetNoticeByIdAsync(int id)
         {
             var notice = await _context.Notices.FindAsync(id);

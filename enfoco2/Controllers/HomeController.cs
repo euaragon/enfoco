@@ -244,6 +244,11 @@ namespace enfoco2.Controllers
             return View();
         }
 
+        public IActionResult Suscriptores()
+        {
+            List<enfoco2.Models.Newsletter> listaDeSuscriptores = (List<Newsletter>)_noticeService.GetNewsletter(); 
+            return View(listaDeSuscriptores);
+        }
 
     }
 }

@@ -48,6 +48,10 @@ h6{
   font-size: 9pt;
 }
 
+li{
+    list-style: none;
+}
+
 .text-dark {
   color: #424642 !important;
 }
@@ -302,3 +306,8 @@ body {
     flex-direction: row !important;
    }
     }
+
+
+.suscriptores{
+    height: 100px;
+}
